@@ -7,301 +7,271 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02F74810F583B8EFB65DC50C2A91BE9C /* UIScrollView+MLWStickyKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B3EA8B1223AA788CBA72199CA07802 /* UIScrollView+MLWStickyKeyboard.m */; };
-		037309641C17E8A0411C1D1FC0445003 /* NCController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF59CD9F3581D494208C857A929127C /* NCController.framework */; };
-		042B9E1FB6F313F3E918A99C3739E744 /* UIResponder+MLWCurrentFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D299ADE35D3D0E124B3B04528BABD88 /* UIResponder+MLWCurrentFirstResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EA24311DA4A02D7A80DCFD07BC7DEC /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ADEE4F0A292FADF5978AB8149291D01 /* MLWXrossTransitionFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CCFD46701E3079C6759B3BF1172645 /* MLWXrossTransitionFade.m */; };
+		094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = C207439FDFEEFFC1E9F7F4C30D114F95 /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D61D0FD3307EC9425660A43D98EEEC6 /* MLWXrossTransitionFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D91BC789519806A7C2D0BB6850FBB70 /* MLWXrossTransitionFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DD0CF70702493B863E891078526FE84 /* Pods-Xross_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134BED2215107E893BB7B573559BCA51 /* Pods-Xross_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		153F52868440EF561C761D3A929E8413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E82C4D69AF0015802538C3B3F23211F8 /* KVOController-dummy.m */; };
-		1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6614EF7104B6F1C42C10A41281968660 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BD2C44319E9AEB0C466CB5D74B76D47 /* Pods-Xross_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9706E90BAFC1ACE9777410E3A65828 /* Pods-Xross_Example-dummy.m */; };
-		1F905A737881B614B0870B22FBA1C6EF /* MLWXrossTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A54E367FAD1135A840B2F39F202AB9B1 /* MLWXrossTransition.m */; };
-		2050BDA6CC2C6CB3C577D5E5726D2A84 /* Xross.h in Headers */ = {isa = PBXBuildFile; fileRef = 09393AEA1C944063C2522F93263D0E06 /* Xross.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22FBA0C63189C5C040E5D0276C249654 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 401AF61D44A31630A261104FD1B3EC32 /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		232AB77BCF013A81ED2CBC2D7380CAE1 /* MLWXrossViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6696192AD172E492686187208B740FE2 /* MLWXrossViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		267A193B8ECD91FB6951FC873AD029EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		268079A203DB69B230A912FB7B8DDBA4 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = 503E52B5053315EAEA2729EC2B76D09D /* EXTADT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		26BD45E0DD6C1260F7DB8D589767BA86 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D31A5BD4EACD43E9EDA4CB49D454651 /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		366FB40E6990D26E1D327B6A1C97C337 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 120100492283D39A4F0FFAE097C0123F /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3B43AD54373F614357C091DC084FC0B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		3B924E4BA4E30E4CC1BE4EF2B6719522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		3DF0FBD3E59D87323827D9DC7B5A656C /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E609DD62C2EB1B60119C98EB447D524 /* JRSwizzle-dummy.m */; };
-		3E3760B1FAA86C37717C941046353D42 /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E4886A3760659B5C930E266731FACA1C /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F6A468344A3BD5130D02A40FE4E6173 /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163EB4F702F912D145B9BD4DBB11CB60 /* KVOController.framework */; };
-		4114046C30E2CA04F8192A256F2B512F /* MLWXrossTransitionStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 1436071E07EFF23D16D99734BD945647 /* MLWXrossTransitionStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		416D108A8F57D950C15742E8DD1024A4 /* MLWXrossTransitionFade.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD738DA5C0C3EBC693AFA317F4790B6 /* MLWXrossTransitionFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41D1D964024F8DF56C31935D9E68AB67 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E99811E0AEDA80B01FBDE47B5D4A33 /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		441F3D364E71DC6C80A537F011224227 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F8B8A671D846EF02C52745323E1331 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		44AE7B259522FFA452C9635107821D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89C5AA3BB23EBFB7A4ED0E9DCE7032B /* UIKit.framework */; };
-		466FF4D8A3E44D15BA1B50DEED576230 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 698143AAE5B3CE5742951B520ECC517A /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		484C1959028EAF4D225E18CBB1699EF3 /* MLWXrossScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5703B6AA1B33DFD94FCBD425C6ECE1C6 /* MLWXrossScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C457F34C4B8CB54B396690ED745A7CA /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = 218EAADAEF476CDA2FA7453480ADE8A6 /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E962449F2DC5BF696EF871F5F9653B5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B579C7570A1E6C94C7E2C04AA316EF2E /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5764625FC8DADAD75C4AC846FEC2C30B /* MLWNCController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD309D77AAE25876C81527A6B41073E /* MLWNCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5939471BBFBEA287B73B433653281519 /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3C4D2FB21B9C6B7969282311A1B9A8 /* extobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FF5E18568C105FE5E47138A93B6F2E /* NSObject+FBKVOController.m */; };
-		5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 098C2001D2DD79814F62BE6966133890 /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65FCECFB6A4B180ECAECBD3FF104C27C /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F4712C8EFC20758FE1F838001B076A /* libextobjc.framework */; };
-		75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFF00F1D301F52B0DA7F4EA9D464F62 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76EE3DEAEF3244AB9531CE63B437D6CD /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A859C437090E3340A63ED172561A40E /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		788B01438E01A8DC2256D011CF6E8E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		7F6F96F97ED8A166A49D712B251317CC /* NCController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1018B325CD5876C9D4AD7373BA81E39D /* NCController-dummy.m */; };
-		8490CDC9AB7FBB493CACD7C326EBEA1E /* UAObfuscatedString-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9642A7B4901595165FB2D2F5D2C59B51 /* UAObfuscatedString-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		852B4A7FA28C181035698FF8281F3B86 /* MLWXrossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1B01BEABBB9F210DE24A6D00C3B7E /* MLWXrossViewController.m */; };
-		8B04D5E3CC5D5322E96DBAF395003B9A /* NSObject+MLWNCController.h in Headers */ = {isa = PBXBuildFile; fileRef = D34BB232678E26BE2BC263CC1A8D3A69 /* NSObject+MLWNCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C0B650C888566A41371F785F7F306A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		8D6C9E09FCCD2901D878A1B9FD2C0A84 /* MLWXrossTransitionCube.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC7E28C290A1DFDA158A0DD64DA78F4 /* MLWXrossTransitionCube.m */; };
-		963DB814E94C14FCF4074459CF756411 /* UAObfuscatedString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A06DA06B089FB3F4D0404CE43F73AE /* UAObfuscatedString.framework */; };
-		9B4BEAD2F11E453A0F2E24D25AA6AB99 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C0AE207B74D8B2D234DDD24A00FEF0 /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A346913E10BF7515C0CAF9077FBA7F89 /* MLWXrossTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8442DC493F1008D7B0C287B98CADAC5E /* MLWXrossTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4C564F89D363B3681F09F61E2436F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		A8C98D483D800B96E37AA5069EF04E68 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = E50ECDD6B6053EB3E941F3C310253904 /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9729B53CB7D5CFBE01940147F3E51CF /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B4952D9B0116582B89D279A882EF55 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A9B16FDEA8B70BA9290AD6F728606AB5 /* UAObfuscatedString.h in Headers */ = {isa = PBXBuildFile; fileRef = CCBFD435E57C76E3E3363D84FF1716A1 /* UAObfuscatedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F79C799129D1F42EC83C31CE3A59CCF /* UIScrollView+MLWNotScrollSuperview.h in Headers */ = {isa = PBXBuildFile; fileRef = C26786201551A9E32FD2F38446F219CF /* UIScrollView+MLWNotScrollSuperview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		153F52868440EF561C761D3A929E8413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */; };
+		16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1718249ED0676DDCED8DE50BA0C74FEC /* KVOController-dummy.m */; };
+		1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E19EF2E611B4B1989EBA335E0884A1 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CEC1084B4ED115686CE643BEF035807 /* JRSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B402592CF8E8B570E456883F6EF065F /* JRSwizzle.framework */; };
+		22634300DA51E5FD23557465E6B8E3F7 /* MLWXrossScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E39AF49942AA5F965B0EF7144D2787FE /* MLWXrossScrollView.m */; };
+		22FBA0C63189C5C040E5D0276C249654 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CA415344DC021E9ABE6FD106070094 /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		231556D149B9EC7BA5CC9E88E6335F84 /* MLWXrossTransitionCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F51DF20C4769F5DC1157F7C6D8BE7D0 /* MLWXrossTransitionCube.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		267A193B8ECD91FB6951FC873AD029EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */; };
+		268079A203DB69B230A912FB7B8DDBA4 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0F6984DD5B2B9002ADA0B7C99FDD6 /* EXTADT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		26BD45E0DD6C1260F7DB8D589767BA86 /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8E6F9486E4B377C31CEABC986FFC1E /* NSMethodSignature+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		321AD4AA0A623D073F6A591B10F6062D /* NCController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836CF75784EAD76E6615D88168C78D20 /* NCController.framework */; };
+		366FB40E6990D26E1D327B6A1C97C337 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = EF445ED80338AB45CEAF393018542E27 /* EXTConcreteProtocol.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		38F381AEC7181E1A90F3341906CF868C /* Xross-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B6795661F71B1FAD8B12BCA47F2AA /* Xross-dummy.m */; };
+		3B924E4BA4E30E4CC1BE4EF2B6719522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */; };
+		3DF0FBD3E59D87323827D9DC7B5A656C /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C28D783BFCFDC2A95330DEB6E71601 /* JRSwizzle-dummy.m */; };
+		3E3760B1FAA86C37717C941046353D42 /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 26043160E575E4562A1CA345427BC3F3 /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D1D964024F8DF56C31935D9E68AB67 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = A3277F5C138C6477D5E21D71F0CE6FEF /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		441F3D364E71DC6C80A537F011224227 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C42F53FB0D28F8E43B72478C2D821B /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		466FA774CCFB3A5CC090FB85D7A14DED /* MLWXrossTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3488EE60F41AAC0E517601CFDB375C28 /* MLWXrossTransition.m */; };
+		466FF4D8A3E44D15BA1B50DEED576230 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = FC948A5380EB09B23D8AF436697AEAD3 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4987F6E37565F75BE18E035653BD73AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */; };
+		4C457F34C4B8CB54B396690ED745A7CA /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = E636DE486E1F1EC663AF1989EC960125 /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C83E0FACB3815ED213323DC38954E3A /* libextobjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B112F85D6BEA0503BCB5F94E6DE55E0 /* libextobjc.framework */; };
+		4E962449F2DC5BF696EF871F5F9653B5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BF49979990EF520E6CF9B435AA3C11 /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4F99C8B4C35F77C1046110033350D979 /* MLWXrossTransitionStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6670B28F175B2D53183E3459A09707CC /* MLWXrossTransitionStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5261D6D83FD4FC8341129AD5299882ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DD24155C6E4C48550FC53E04BD8455 /* UIKit.framework */; };
+		5764625FC8DADAD75C4AC846FEC2C30B /* MLWNCController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2123F7CAB30A6A8ACACB7DECC1777C2 /* MLWNCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5939471BBFBEA287B73B433653281519 /* extobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9951E819837D07EAFC58A3B746B8C59A /* extobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		595BCC763980A11A84BD43E7AB322CEB /* Xross-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB42DC3BC9A3195F5AB7A94CE370DFE4 /* Xross-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A61398084FCCAD3C60F4075D6DAC81 /* UIScrollView+MLWStickyKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 665E4C20EA00D5109E88EFC3757633E7 /* UIScrollView+MLWStickyKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A8A910A7F5E6C529B790D330DEF9C0 /* MLWXrossTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2765F5F9AAEEEF4C157BF2546683F54F /* MLWXrossTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CFB53465FE51FEFE8F7F8A814AD524 /* NSObject+FBKVOController.m */; };
+		5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F214CBC360153F462065AD70A6DC99 /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = E441F50D30D8885E3321AEB1D5499630 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76EE3DEAEF3244AB9531CE63B437D6CD /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 53612062DE233605672B0DB314D3F7CE /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6F96F97ED8A166A49D712B251317CC /* NCController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D186B24A60D72D480492D8A34C293922 /* NCController-dummy.m */; };
+		86E009E13D6F52AAB50AF775371E0EC7 /* MLWXrossScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BCB6C0477BA6F0413109B6E18B3969 /* MLWXrossScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B04D5E3CC5D5322E96DBAF395003B9A /* NSObject+MLWNCController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B6E9608F5DF7555BCF295896DE4A46 /* NSObject+MLWNCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0B650C888566A41371F785F7F306A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */; };
+		8F7EC86F279F2CFEC9C346D60F45AA7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */; };
+		9B4BEAD2F11E453A0F2E24D25AA6AB99 /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F883C28C35FC036C43BE2224A40EE1 /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C564F89D363B3681F09F61E2436F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */; };
+		A8C98D483D800B96E37AA5069EF04E68 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3CE34C1B7DD74FD391950BCFA6C631 /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9729B53CB7D5CFBE01940147F3E51CF /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEDCE91DD7B8A0969EFF5C1B7AEC9F2 /* NSInvocation+EXT.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AA5C7542C61EBF2BCF3D247EB7BBD912 /* Pods-Xross_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B5A18F3A00621DC5EC3E8B8835D3A7 /* Pods-Xross_Tests-dummy.m */; };
-		AAA92F06ACDE0079DFA2D6DB1F277F60 /* libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 311CF622A3C159D6AD17A7F8DD4F8566 /* libextobjc-dummy.m */; };
-		ABC45AE2E250934BCAD409416C95F92D /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D81C9E20FFD0588E98A59E0B42855B /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD67CFCEC3E7153C55F39EDFECEAD859 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EC83E3110566B41F151E882374FB56 /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B00580AB0AF3CFCAF1D3BB370BBC05E9 /* NCController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B48BC8A9F9C589B627A47F934B62AE7 /* NCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B02860324CFC43841B3C5E531CCBD1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */; };
-		B503FE04A9C2074EE478C4B76E89DAEA /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FA18E423D0421AF56525E81F7A6933 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8DF09FAF70763534BD0768AF69D4C7A /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DDB89F09EFB9965689F2CA28A88473 /* EXTNil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BAC62980C6A89A649FB9F7DB296AFD47 /* Xross-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E723CF32578126950DF73B35915810F /* Xross-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBEC6D683539653F1DB71E7535E3DA51 /* UIScrollView+MLWNotScrollSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8DD88BC92C10AD94FEC519E1E4B80F /* UIScrollView+MLWNotScrollSuperview.m */; };
-		C3B4FAFC82DC807416A59EEC58DFF39B /* MLWXrossScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C962401C40A9808342C710F7754551 /* MLWXrossScrollView.m */; };
-		C4D7FDF7EB15751105299D2748E99D8D /* UIScrollView+MLWStickyKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 1392A679370CD81D9E59C1C9579E3376 /* UIScrollView+MLWStickyKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C52FF62B1E2DE5C8EFC94685639EDF50 /* NCController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21544169782AB3F705EA6FB0361F0545 /* NCController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C77DEEBC1DB408E8ADA9C454CD8E0707 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5F99133DB44D43A4A79679A4B8EBC4 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7A681C2A771064F93FD0BA515FD12B3 /* UIScrollView+MLWNotScrollSuperview.h in Headers */ = {isa = PBXBuildFile; fileRef = 2092BAE512F348586540C2335D3C4B57 /* UIScrollView+MLWNotScrollSuperview.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9BE6DAC8FBA4599096DF1900B416E91 /* JRSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717CD2803EC733298BC8DCD388550DE6 /* JRSwizzle.framework */; };
-		D0662B585C8AD4373F2336E0EDF6C324 /* MLWXrossTransitionCube.h in Headers */ = {isa = PBXBuildFile; fileRef = F6BBFFE27D42CF5C8EE61C11AB8E84C0 /* MLWXrossTransitionCube.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D28EC0A669436CB79B291800668FF449 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = B812C0E767E28F93DFEC1337AA19ACF5 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D376990E718F654B4079AFF93410342B /* UAObfuscatedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 307BC2AA8C1B8DC7D576954079C132E9 /* UAObfuscatedString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D41BD225CCDDB264512B8F80955B897B /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = F4066E9336D654E7551A54312A7ACD35 /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C5F7423BA0D59A024F81DC07E99053 /* MLWXrossTransitionStack.m in Sources */ = {isa = PBXBuildFile; fileRef = F51032260D1DD9A6D1ED5B6FE45543D1 /* MLWXrossTransitionStack.m */; };
-		DBA1455B42FC47CA65D148D7C1250AB7 /* UAObfuscatedString-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E70EFA9E2C8C85BEAAD197E7176E8DE /* UAObfuscatedString-dummy.m */; };
-		DD20095527F7D2E14A6060F5C7BDF5BA /* MLWNCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5513BA22427EFDF9CE1433662139D323 /* MLWNCController.m */; };
-		DF387A5754C07F2F17181D81C9D4DE1E /* Xross-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9098D6DD8033E48A1812381AAFFEC9F5 /* Xross-dummy.m */; };
-		E03C8DCD305D93D87B82B9FE55156099 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2B7E3E8A657619ABDD772B039D550C /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4AC830597E50A8C40BF64E15CEB00EE /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CA393E6C10FBA4057F45A630061F5F /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E55665E04C51174052E57727BCD7C5F7 /* libextobjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6FDDD57FCCDC2863B91B0B68797251 /* libextobjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8161D1D94865FACDD9CBBD5D5BC7C20 /* NSObject+MLWNCController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE176B7D87F0C8208BF5BFA999572E4 /* NSObject+MLWNCController.m */; };
-		F4D2816AA90B4F7136A6E6F0703083DB /* UIResponder+MLWCurrentFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7352796116DD0DC4E02FCD7D58E7B70F /* UIResponder+MLWCurrentFirstResponder.m */; };
-		F7A5165E0FDB31A2BEC2924A43AC451D /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D843AE000C353E5781B1498A9D74EE8 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938D1B3BD4992B44EEF1602574F7B075 /* FBKVOController.m */; };
-		F8130A4259DCC93DDCD214164EF0B92F /* Pods-Xross_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BD01EAF6AC8799DA2E63C320D85EC3 /* Pods-Xross_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA92F06ACDE0079DFA2D6DB1F277F60 /* libextobjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 754E82DD6E09AE711A8F07BB565CEFE5 /* libextobjc-dummy.m */; };
+		ABC45AE2E250934BCAD409416C95F92D /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E82C90863B7927A57E9E9DDCDB7C6021 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD67CFCEC3E7153C55F39EDFECEAD859 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A205AF51A32FA9499FB794E2F673AC /* EXTSelectorChecking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B00580AB0AF3CFCAF1D3BB370BBC05E9 /* NCController.h in Headers */ = {isa = PBXBuildFile; fileRef = 248919F26993C994A8922FEFA7F6F81A /* NCController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B24EFF2FD94E16A97BF1375F3EC073EA /* MLWXrossTransitionCube.m in Sources */ = {isa = PBXBuildFile; fileRef = E3420F45D0F84ECA3A8E61A3A8B34505 /* MLWXrossTransitionCube.m */; };
+		B503FE04A9C2074EE478C4B76E89DAEA /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9085D33AD2321E0EB4CD70A3EA29200A /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FF420C43F33BC1C42D6C812999F33E /* KVOController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EAC72DB8736C42DFD73F844C017045 /* KVOController.framework */; };
+		B8DF09FAF70763534BD0768AF69D4C7A /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7EAE1179F66F2F7A1D09D5A9607462 /* EXTNil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C52FF62B1E2DE5C8EFC94685639EDF50 /* NCController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E643FD684C13DABC9A16DD901B35783 /* NCController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62C2AA6FFFCA71851F47887027738D1 /* Xross.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D01A0A98D3BBC674CAF6A07BD9382D /* Xross.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C77DEEBC1DB408E8ADA9C454CD8E0707 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F93E2123B6588072C60B734714EBB4 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDEFD70134E2EAB0FD4192A4AF7BC331 /* UIResponder+MLWCurrentFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 431D55B67CBFE6D445C02D011F29303A /* UIResponder+MLWCurrentFirstResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28EC0A669436CB79B291800668FF449 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E41FE8B008CC15E973C3709D51F87F8 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D41BD225CCDDB264512B8F80955B897B /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8AECFD94D68DAACEDBD7AEB5FB9DE0 /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5631969FD165C8236781A47B0DE12FE /* Pods-Xross_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9706E90BAFC1ACE9777410E3A65828 /* Pods-Xross_Example-dummy.m */; };
+		D995817FEF86CA39E32B95DCDBAB569D /* MLWXrossViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 41ED718BB1DC34562BA2FEE23025F7B2 /* MLWXrossViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA49F75C2C7A706A5C6C02F2B82F7B2A /* MLWXrossTransitionStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 732B6EB85EB98DF2F208FBAB245D3F3E /* MLWXrossTransitionStack.m */; };
+		DA654E8AF0231AC32856C4B404F24E0D /* UIResponder+MLWCurrentFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A181F5B5E83F7780CC73CA3F64AA54 /* UIResponder+MLWCurrentFirstResponder.m */; };
+		DD20095527F7D2E14A6060F5C7BDF5BA /* MLWNCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2729A1BECBE7EBAE20C032A5DB1FE0E2 /* MLWNCController.m */; };
+		E03C8DCD305D93D87B82B9FE55156099 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6D965653547CD5755BC6C361E0FAEF /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4AC830597E50A8C40BF64E15CEB00EE /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE6CA24EEDD8790B831CC075132E39D /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55665E04C51174052E57727BCD7C5F7 /* libextobjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD60D27874B987E8A0D630B9E0577318 /* libextobjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8161D1D94865FACDD9CBBD5D5BC7C20 /* NSObject+MLWNCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4996203795603613036374C5DAE4A6CA /* NSObject+MLWNCController.m */; };
+		EC942131F81FECA319D1A13E8C43DF75 /* MLWXrossTransitionFade.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B84CF77C0A996DCC155551DEBCCAB /* MLWXrossTransitionFade.m */; };
+		F3BC8A8B832ACC912CD42831A8CB2B56 /* MLWXrossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A1C3370D8E54B5C4FBA3C47CE739EA /* MLWXrossViewController.m */; };
+		F70B52D6CC2D8AB18B8853D0DEF50B0C /* Pods-Xross_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BD01EAF6AC8799DA2E63C320D85EC3 /* Pods-Xross_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7A5165E0FDB31A2BEC2924A43AC451D /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9FD8AB5517839ECC0289442332E776 /* EXTSafeCategory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BC0D7881279A750B5B5D16BE4BF3E /* FBKVOController.m */; };
+		FD724C08FCAF8F1B2642CA9C38174759 /* UIScrollView+MLWNotScrollSuperview.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BB66D180F351D65538247F7FB24929 /* UIScrollView+MLWNotScrollSuperview.m */; };
+		FEEEBD8506317E5EC050F7A32A010390 /* UIScrollView+MLWStickyKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8EB66E06703EA7DC830729514D300F /* UIScrollView+MLWStickyKeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		33323204D291CFA208E53D007F6FB01B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5E7B86C60FCB91858074F7C2F733BE5;
-			remoteInfo = JRSwizzle;
-		};
-		3606FFF0D4C8620D97344ED2142C2FDA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EE053CAA134CA7A6FA356E4059CAD1A;
-			remoteInfo = libextobjc;
-		};
-		4716C37D4A72D7A85B94D8B571BB0D1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4EE053CAA134CA7A6FA356E4059CAD1A;
-			remoteInfo = libextobjc;
-		};
-		4F48217CBA72311C710962B338579B57 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F5E7B86C60FCB91858074F7C2F733BE5;
-			remoteInfo = JRSwizzle;
-		};
-		503F6C8186A92A0A0FAB165D59A4A23E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC988BEA5C83215D1E4F4E85263D2CE6;
-			remoteInfo = NCController;
-		};
-		54981EC45F2282218B06ED1F93169875 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC988BEA5C83215D1E4F4E85263D2CE6;
-			remoteInfo = NCController;
-		};
-		5A8BD885D035963F23E0C021CE5CB623 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B1F3C918078CBDC87B92B0035B99B68;
-			remoteInfo = UAObfuscatedString;
-		};
-		6B7660293C4FFAC0E79AEDC897403AF0 /* PBXContainerItemProxy */ = {
+		35D0FE4B0A02F2FCB6012B9D078F0055 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1BB2FCBCF83B5DDB315512A21BC40B8;
 			remoteInfo = KVOController;
 		};
-		71DA6A1FCC98436948FCC945C1DA3829 /* PBXContainerItemProxy */ = {
+		55AB0DD9C026F50DF26ADEACFDE630E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B1F3C918078CBDC87B92B0035B99B68;
-			remoteInfo = UAObfuscatedString;
+			remoteGlobalIDString = EC988BEA5C83215D1E4F4E85263D2CE6;
+			remoteInfo = NCController;
 		};
-		C12BA42CF50FAD40B37FDB5439DBE0EA /* PBXContainerItemProxy */ = {
+		7A59F38C32468376070CAB23C1EA0A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE053CAA134CA7A6FA356E4059CAD1A;
+			remoteInfo = libextobjc;
+		};
+		7C2228245CD71401AC04358FC9B5FD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E7B86C60FCB91858074F7C2F733BE5;
+			remoteInfo = JRSwizzle;
+		};
+		8A8F1DC2BD4ED71AE849CA3A8D127D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E7B86C60FCB91858074F7C2F733BE5;
+			remoteInfo = JRSwizzle;
+		};
+		A599D89239CCCB8544B450AC6D7123BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EE053CAA134CA7A6FA356E4059CAD1A;
+			remoteInfo = libextobjc;
+		};
+		B01C3B2672DF599A940DE47546B418B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F1BB2FCBCF83B5DDB315512A21BC40B8;
 			remoteInfo = KVOController;
 		};
-		EDE44F7AE89CB6A373281A015F3FD94F /* PBXContainerItemProxy */ = {
+		BFBD39EB83A6C5ABD58C74F625759073 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22F71A59D58B82942C1380C0347D6A59;
+			remoteGlobalIDString = EC988BEA5C83215D1E4F4E85263D2CE6;
+			remoteInfo = NCController;
+		};
+		EEC9648100B204C953F2B4F5D8115594 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FE0BEEFD5370F9B1FDC022CA2E8C38;
 			remoteInfo = Xross;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		002482B3E5E8199D4A3D9ECCD6F88BE1 /* Pods-Xross_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Xross_Example.release.xcconfig"; sourceTree = "<group>"; };
-		015A1802204FF06A43D34D42FBFE2AFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01FBDDA711B89F1510297EFB5CEAEA8B /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		024F27180B5A3A8AF9D9914D8A19C4FE /* Pods_Xross_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Xross_Tests.framework; path = "Pods-Xross_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BCB6C0477BA6F0413109B6E18B3969 /* MLWXrossScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWXrossScrollView.h; path = Pod/MLWXrossScrollView.h; sourceTree = "<group>"; };
+		033C1B203183971B0E87DD9AB4E4782A /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libextobjc.framework; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		048B6B097FE976B2F7FE3A6B44637F4D /* Pods-Xross_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Xross_Tests-resources.sh"; sourceTree = "<group>"; };
-		04C0AE207B74D8B2D234DDD24A00FEF0 /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = extobjc/EXTSynthesize.h; sourceTree = "<group>"; };
-		08F275E69894206709995EA97A98EE98 /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libextobjc.framework; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09393AEA1C944063C2522F93263D0E06 /* Xross.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Xross.h; sourceTree = "<group>"; };
-		098C2001D2DD79814F62BE6966133890 /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
-		0B2EC6FFBAC7CB1E8417B1F8AF4BB56D /* UAObfuscatedString.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UAObfuscatedString.xcconfig; sourceTree = "<group>"; };
+		06A60079297BFE02CFB306CCB8B14FF2 /* NCController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NCController.modulemap; sourceTree = "<group>"; };
 		0C423D09DF95782D5940E7EDC33EEB9E /* Pods-Xross_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Xross_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D667E7F4814002427CB952B7DCD8E62 /* Pods-Xross_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Xross_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0FD738DA5C0C3EBC693AFA317F4790B6 /* MLWXrossTransitionFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWXrossTransitionFade.h; sourceTree = "<group>"; };
-		1018B325CD5876C9D4AD7373BA81E39D /* NCController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCController-dummy.m"; sourceTree = "<group>"; };
-		120100492283D39A4F0FFAE097C0123F /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = extobjc/EXTConcreteProtocol.m; sourceTree = "<group>"; };
+		0EEDCE91DD7B8A0969EFF5C1B7AEC9F2 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "extobjc/NSInvocation+EXT.m"; sourceTree = "<group>"; };
 		134BED2215107E893BB7B573559BCA51 /* Pods-Xross_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Xross_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1391EF1929ED9E932E742E32D22DA24A /* libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-prefix.pch"; sourceTree = "<group>"; };
-		1392A679370CD81D9E59C1C9579E3376 /* UIScrollView+MLWStickyKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MLWStickyKeyboard.h"; sourceTree = "<group>"; };
-		1436071E07EFF23D16D99734BD945647 /* MLWXrossTransitionStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWXrossTransitionStack.h; sourceTree = "<group>"; };
-		14CCFD46701E3079C6759B3BF1172645 /* MLWXrossTransitionFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWXrossTransitionFade.m; sourceTree = "<group>"; };
-		14FEF028EE845D8122D58AEF840B7C59 /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
-		163EB4F702F912D145B9BD4DBB11CB60 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A859C437090E3340A63ED172561A40E /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = extobjc/EXTNil.h; sourceTree = "<group>"; };
-		1D34F74F9B1283DCB627BAE212786043 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVOController.modulemap; sourceTree = "<group>"; };
-		2092BAE512F348586540C2335D3C4B57 /* UIScrollView+MLWNotScrollSuperview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MLWNotScrollSuperview.h"; sourceTree = "<group>"; };
+		1718249ED0676DDCED8DE50BA0C74FEC /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
+		19FBEAEEA02823145EA692306053D120 /* NCController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCController-prefix.pch"; sourceTree = "<group>"; };
+		1E643FD684C13DABC9A16DD901B35783 /* NCController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCController-umbrella.h"; sourceTree = "<group>"; };
 		20B5A18F3A00621DC5EC3E8B8835D3A7 /* Pods-Xross_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Xross_Tests-dummy.m"; sourceTree = "<group>"; };
-		21544169782AB3F705EA6FB0361F0545 /* NCController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCController-umbrella.h"; sourceTree = "<group>"; };
-		218EAADAEF476CDA2FA7453480ADE8A6 /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = extobjc/EXTADT.h; sourceTree = "<group>"; };
-		29CA393E6C10FBA4057F45A630061F5F /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		2A2B7E3E8A657619ABDD772B039D550C /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = extobjc/EXTSelectorChecking.h; sourceTree = "<group>"; };
+		248919F26993C994A8922FEFA7F6F81A /* NCController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCController.h; path = Pod/Classes/NCController.h; sourceTree = "<group>"; };
+		26043160E575E4562A1CA345427BC3F3 /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = extobjc/EXTConcreteProtocol.h; sourceTree = "<group>"; };
+		2729A1BECBE7EBAE20C032A5DB1FE0E2 /* MLWNCController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWNCController.m; path = Pod/Classes/MLWNCController.m; sourceTree = "<group>"; };
+		27354C8AB28365C64B9484F8155E12AE /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2765F5F9AAEEEF4C157BF2546683F54F /* MLWXrossTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWXrossTransition.h; path = Pod/MLWXrossTransition.h; sourceTree = "<group>"; };
+		29BB66D180F351D65538247F7FB24929 /* UIScrollView+MLWNotScrollSuperview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MLWNotScrollSuperview.m"; path = "Pod/UIScrollView+MLWNotScrollSuperview.m"; sourceTree = "<group>"; };
 		2CF89C108F2847839B574EE0B66E2297 /* Pods-Xross_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Xross_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2DC7966EFF089A7132513E8D7AB17565 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F7F19F957D52B05127584CB0B52188C /* libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libextobjc.xcconfig; sourceTree = "<group>"; };
-		307BC2AA8C1B8DC7D576954079C132E9 /* UAObfuscatedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UAObfuscatedString.m; sourceTree = "<group>"; };
-		30EC83E3110566B41F151E882374FB56 /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = extobjc/EXTSelectorChecking.m; sourceTree = "<group>"; };
-		311CF622A3C159D6AD17A7F8DD4F8566 /* libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libextobjc-dummy.m"; sourceTree = "<group>"; };
-		3712F1E4F490F9B0A4FEF47553B4AE3E /* Pods_Xross_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Xross_Tests.framework; path = "Pods-Xross_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38A1B01BEABBB9F210DE24A6D00C3B7E /* MLWXrossViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWXrossViewController.m; sourceTree = "<group>"; };
+		34887E1ECB0ECEE39188BA61D45F58EB /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
+		3488EE60F41AAC0E517601CFDB375C28 /* MLWXrossTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWXrossTransition.m; path = Pod/MLWXrossTransition.m; sourceTree = "<group>"; };
+		35BC0A5C4EB5E0668E0F172D5F3CFABC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3976690187C8FCFE931C98E9291AF1F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AA781C40C941B226CDDD3464336A930 /* Pods-Xross_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Xross_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3DFF00F1D301F52B0DA7F4EA9D464F62 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
-		3E70EFA9E2C8C85BEAAD197E7176E8DE /* UAObfuscatedString-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UAObfuscatedString-dummy.m"; sourceTree = "<group>"; };
-		3FD309D77AAE25876C81527A6B41073E /* MLWNCController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWNCController.h; path = Pod/Classes/MLWNCController.h; sourceTree = "<group>"; };
-		401AF61D44A31630A261104FD1B3EC32 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = extobjc/EXTSafeCategory.h; sourceTree = "<group>"; };
-		40DDB89F09EFB9965689F2CA28A88473 /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = extobjc/EXTNil.m; sourceTree = "<group>"; };
+		3F7EAE1179F66F2F7A1D09D5A9607462 /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTNil.m; path = extobjc/EXTNil.m; sourceTree = "<group>"; };
+		4168C77A04B8706F99F986978A2E993A /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRSwizzle.framework; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A205AF51A32FA9499FB794E2F673AC /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSelectorChecking.m; path = extobjc/EXTSelectorChecking.m; sourceTree = "<group>"; };
+		41ED718BB1DC34562BA2FEE23025F7B2 /* MLWXrossViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWXrossViewController.h; path = Pod/MLWXrossViewController.h; sourceTree = "<group>"; };
 		4235737B93CE1A393A8DA6B571F6BC98 /* Pods-Xross_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Xross_Example-resources.sh"; sourceTree = "<group>"; };
-		42E77E38F6F0AF14681B85E252E05D25 /* NCController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NCController-prefix.pch"; sourceTree = "<group>"; };
-		43A26AEF361B0C9E242F97D7C29A9A71 /* Xross-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Xross-prefix.pch"; sourceTree = "<group>"; };
+		431D55B67CBFE6D445C02D011F29303A /* UIResponder+MLWCurrentFirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+MLWCurrentFirstResponder.h"; path = "Pod/UIResponder+MLWCurrentFirstResponder.h"; sourceTree = "<group>"; };
+		437490FDC9F3171E76B925348B0A4BF4 /* libextobjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = libextobjc.modulemap; sourceTree = "<group>"; };
 		43C9CE5D8D641AB836214C37AA445C28 /* Pods-Xross_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Xross_Example.modulemap"; sourceTree = "<group>"; };
-		46C529C8CD3129EC64F7FA9660A80706 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A38D14DC106FCBA88EBCBCF9B0A67DC /* NCController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCController.xcconfig; sourceTree = "<group>"; };
-		4C6FDDD57FCCDC2863B91B0B68797251 /* libextobjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-umbrella.h"; sourceTree = "<group>"; };
-		4D299ADE35D3D0E124B3B04528BABD88 /* UIResponder+MLWCurrentFirstResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIResponder+MLWCurrentFirstResponder.h"; sourceTree = "<group>"; };
-		4D843AE000C353E5781B1498A9D74EE8 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = extobjc/EXTSafeCategory.m; sourceTree = "<group>"; };
-		503E52B5053315EAEA2729EC2B76D09D /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = extobjc/EXTADT.m; sourceTree = "<group>"; };
-		52C962401C40A9808342C710F7754551 /* MLWXrossScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWXrossScrollView.m; sourceTree = "<group>"; };
-		5513BA22427EFDF9CE1433662139D323 /* MLWNCController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWNCController.m; path = Pod/Classes/MLWNCController.m; sourceTree = "<group>"; };
-		5703B6AA1B33DFD94FCBD425C6ECE1C6 /* MLWXrossScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWXrossScrollView.h; sourceTree = "<group>"; };
-		5846216283299B7935F63B926BF76567 /* UAObfuscatedString.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UAObfuscatedString.modulemap; sourceTree = "<group>"; };
-		5B48BC8A9F9C589B627A47F934B62AE7 /* NCController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NCController.h; path = Pod/Classes/NCController.h; sourceTree = "<group>"; };
-		62A06DA06B089FB3F4D0404CE43F73AE /* UAObfuscatedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UAObfuscatedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6614EF7104B6F1C42C10A41281968660 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
-		6696192AD172E492686187208B740FE2 /* MLWXrossViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWXrossViewController.h; sourceTree = "<group>"; };
-		682C9A8457E0045E08AF33B9E659EA7F /* NCController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NCController.modulemap; sourceTree = "<group>"; };
-		698143AAE5B3CE5742951B520ECC517A /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = extobjc/EXTScope.m; sourceTree = "<group>"; };
-		6A1C74BD54D5B2B4D673F7DB9D636818 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JRSwizzle.framework; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E723CF32578126950DF73B35915810F /* Xross-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Xross-umbrella.h"; sourceTree = "<group>"; };
-		717CD2803EC733298BC8DCD388550DE6 /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7352796116DD0DC4E02FCD7D58E7B70F /* UIResponder+MLWCurrentFirstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+MLWCurrentFirstResponder.m"; sourceTree = "<group>"; };
-		78617BB9462C6EA05CE9DA329ADAB62D /* NCController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCController.framework; path = NCController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D31A5BD4EACD43E9EDA4CB49D454651 /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "extobjc/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
-		7E36068A8EE31C1998EB5949040E5EE8 /* Xross.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Xross.modulemap; sourceTree = "<group>"; };
-		82D9CA9610028B982CE1DC8AC08CD54C /* Pods_Xross_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Xross_Example.framework; path = "Pods-Xross_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8442DC493F1008D7B0C287B98CADAC5E /* MLWXrossTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWXrossTransition.h; sourceTree = "<group>"; };
-		8E609DD62C2EB1B60119C98EB447D524 /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
-		8FFA2C34A2349DCC3160A0AA0AE89619 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9098D6DD8033E48A1812381AAFFEC9F5 /* Xross-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Xross-dummy.m"; sourceTree = "<group>"; };
-		91F8B8A671D846EF02C52745323E1331 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		4996203795603613036374C5DAE4A6CA /* NSObject+MLWNCController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLWNCController.m"; path = "Pod/Classes/NSObject+MLWNCController.m"; sourceTree = "<group>"; };
+		4C6D965653547CD5755BC6C361E0FAEF /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSelectorChecking.h; path = extobjc/EXTSelectorChecking.h; sourceTree = "<group>"; };
+		53612062DE233605672B0DB314D3F7CE /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTNil.h; path = extobjc/EXTNil.h; sourceTree = "<group>"; };
+		57B6E9608F5DF7555BCF295896DE4A46 /* NSObject+MLWNCController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLWNCController.h"; path = "Pod/Classes/NSObject+MLWNCController.h"; sourceTree = "<group>"; };
+		5CED7D2E58EA5A9DB2185E6118B8EA12 /* libextobjc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libextobjc.xcconfig; sourceTree = "<group>"; };
+		5D4BC0D7881279A750B5B5D16BE4BF3E /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		5D91BC789519806A7C2D0BB6850FBB70 /* MLWXrossTransitionFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWXrossTransitionFade.h; path = Pod/MLWXrossTransitionFade.h; sourceTree = "<group>"; };
+		5EE6CA24EEDD8790B831CC075132E39D /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		665E4C20EA00D5109E88EFC3757633E7 /* UIScrollView+MLWStickyKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MLWStickyKeyboard.h"; path = "Pod/UIScrollView+MLWStickyKeyboard.h"; sourceTree = "<group>"; };
+		6670B28F175B2D53183E3459A09707CC /* MLWXrossTransitionStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWXrossTransitionStack.h; path = Pod/MLWXrossTransitionStack.h; sourceTree = "<group>"; };
+		66D01A0A98D3BBC674CAF6A07BD9382D /* Xross.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Xross.h; path = Pod/Xross.h; sourceTree = "<group>"; };
+		732B6EB85EB98DF2F208FBAB245D3F3E /* MLWXrossTransitionStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWXrossTransitionStack.m; path = Pod/MLWXrossTransitionStack.m; sourceTree = "<group>"; };
+		754E82DD6E09AE711A8F07BB565CEFE5 /* libextobjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libextobjc-dummy.m"; sourceTree = "<group>"; };
+		78CCC689C52B58544AAA5A7D28828980 /* Xross.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Xross.framework; path = Xross.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2BE94AA9B3F0BC126C6375E5A6ACF5 /* NCController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NCController.xcconfig; sourceTree = "<group>"; };
+		7B402592CF8E8B570E456883F6EF065F /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2B6795661F71B1FAD8B12BCA47F2AA /* Xross-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Xross-dummy.m"; sourceTree = "<group>"; };
+		7F51DF20C4769F5DC1157F7C6D8BE7D0 /* MLWXrossTransitionCube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWXrossTransitionCube.h; path = Pod/MLWXrossTransitionCube.h; sourceTree = "<group>"; };
+		836CF75784EAD76E6615D88168C78D20 /* NCController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NCController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		883A2FBFADCFEF07F46725CB9EC6F469 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B112F85D6BEA0503BCB5F94E6DE55E0 /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2EC1C94079FEA41C8EEBB3928C51D8 /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		8F99368FEF59BA0E3B796ADE5BDF7DE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD0F6984DD5B2B9002ADA0B7C99FDD6 /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTADT.m; path = extobjc/EXTADT.m; sourceTree = "<group>"; };
+		9085D33AD2321E0EB4CD70A3EA29200A /* JRSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-umbrella.h"; sourceTree = "<group>"; };
 		92A641E4ED24FBE6D02ABF2E6E29D3C0 /* Pods-Xross_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Xross_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		938D1B3BD4992B44EEF1602574F7B075 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		92BF49979990EF520E6CF9B435AA3C11 /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94FF5E18568C105FE5E47138A93B6F2E /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
-		9642A7B4901595165FB2D2F5D2C59B51 /* UAObfuscatedString-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UAObfuscatedString-umbrella.h"; sourceTree = "<group>"; };
-		9C3C4D2FB21B9C6B7969282311A1B9A8 /* extobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extobjc.h; path = extobjc/extobjc.h; sourceTree = "<group>"; };
+		97F883C28C35FC036C43BE2224A40EE1 /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSynthesize.h; path = extobjc/EXTSynthesize.h; sourceTree = "<group>"; };
+		98CFB53465FE51FEFE8F7F8A814AD524 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		9951E819837D07EAFC58A3B746B8C59A /* extobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = extobjc.h; path = extobjc/extobjc.h; sourceTree = "<group>"; };
 		9C72F3256CD674E2ACD74A372A952DA7 /* Pods-Xross_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Xross_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9E41FE8B008CC15E973C3709D51F87F8 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = extobjc/EXTScope.h; sourceTree = "<group>"; };
 		9E9706E90BAFC1ACE9777410E3A65828 /* Pods-Xross_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Xross_Example-dummy.m"; sourceTree = "<group>"; };
-		9FEB80C25C4CBCF626ED623031B9382A /* libextobjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = libextobjc.modulemap; sourceTree = "<group>"; };
-		A54E367FAD1135A840B2F39F202AB9B1 /* MLWXrossTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWXrossTransition.m; sourceTree = "<group>"; };
-		A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A77F9547DA05C6946AB43D39683D726E /* Xross.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Xross.framework; path = Xross.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9E99811E0AEDA80B01FBDE47B5D4A33 /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "extobjc/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
-		AA5F99133DB44D43A4A79679A4B8EBC4 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = extobjc/metamacros.h; sourceTree = "<group>"; };
-		AD569FFCD1A9B1361869D2F335EF4FC8 /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
-		AEC7E28C290A1DFDA158A0DD64DA78F4 /* MLWXrossTransitionCube.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWXrossTransitionCube.m; sourceTree = "<group>"; };
-		B1FA18E423D0421AF56525E81F7A6933 /* JRSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-umbrella.h"; sourceTree = "<group>"; };
-		B579C7570A1E6C94C7E2C04AA316EF2E /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
-		B812C0E767E28F93DFEC1337AA19ACF5 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = extobjc/EXTScope.h; sourceTree = "<group>"; };
-		BC8DD88BC92C10AD94FEC519E1E4B80F /* UIScrollView+MLWNotScrollSuperview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MLWNotScrollSuperview.m"; sourceTree = "<group>"; };
-		BEF59CD9F3581D494208C857A929127C /* NCController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NCController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0F143C2ADD6A8CAD5BE075E9695922F /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
+		A2C28D783BFCFDC2A95330DEB6E71601 /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
+		A3277F5C138C6477D5E21D71F0CE6FEF /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+EXT.h"; path = "extobjc/NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
+		A9E2861A407C2BD7F222BC89A77B737D /* Xross.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Xross.xcconfig; sourceTree = "<group>"; };
+		A9F93E2123B6588072C60B734714EBB4 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = extobjc/metamacros.h; sourceTree = "<group>"; };
+		AB42DC3BC9A3195F5AB7A94CE370DFE4 /* Xross-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Xross-umbrella.h"; sourceTree = "<group>"; };
+		AD60D27874B987E8A0D630B9E0577318 /* libextobjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-umbrella.h"; sourceTree = "<group>"; };
+		AD8EB66E06703EA7DC830729514D300F /* UIScrollView+MLWStickyKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MLWStickyKeyboard.m"; path = "Pod/UIScrollView+MLWStickyKeyboard.m"; sourceTree = "<group>"; };
+		AF4D9EBE91C66070DF9D83CA1A567CB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF55AEBE2E3C229E2D08FF9A2BF731B0 /* libextobjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libextobjc-prefix.pch"; sourceTree = "<group>"; };
+		B2123F7CAB30A6A8ACACB7DECC1777C2 /* MLWNCController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MLWNCController.h; path = Pod/Classes/MLWNCController.h; sourceTree = "<group>"; };
+		B5A181F5B5E83F7780CC73CA3F64AA54 /* UIResponder+MLWCurrentFirstResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+MLWCurrentFirstResponder.m"; path = "Pod/UIResponder+MLWCurrentFirstResponder.m"; sourceTree = "<group>"; };
+		B5CA415344DC021E9ABE6FD106070094 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTSafeCategory.h; path = extobjc/EXTSafeCategory.h; sourceTree = "<group>"; };
+		B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B7EAC72DB8736C42DFD73F844C017045 /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3CE34C1B7DD74FD391950BCFA6C631 /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		C1A846C83AA6061EF250336A1D4E9620 /* Pods-Xross_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Xross_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C207439FDFEEFFC1E9F7F4C30D114F95 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		C26786201551A9E32FD2F38446F219CF /* UIScrollView+MLWNotScrollSuperview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MLWNotScrollSuperview.h"; path = "Pod/UIScrollView+MLWNotScrollSuperview.h"; sourceTree = "<group>"; };
 		C2BD01EAF6AC8799DA2E63C320D85EC3 /* Pods-Xross_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Xross_Example-umbrella.h"; sourceTree = "<group>"; };
 		C7C216BDBF7C302E8AFC90B592985E5A /* Pods-Xross_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Xross_Tests.modulemap"; sourceTree = "<group>"; };
-		CCBFD435E57C76E3E3363D84FF1716A1 /* UAObfuscatedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UAObfuscatedString.h; sourceTree = "<group>"; };
 		CD3C4EDFB581CD085CB561B33DD9EBEC /* Pods-Xross_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Xross_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE3C2AF14E536E4A8E4EA249780BD39B /* UAObfuscatedString-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UAObfuscatedString-prefix.pch"; sourceTree = "<group>"; };
-		D1E0D700272C47F78754207152650EDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2EA24311DA4A02D7A80DCFD07BC7DEC /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
-		D34BB232678E26BE2BC263CC1A8D3A69 /* NSObject+MLWNCController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MLWNCController.h"; path = "Pod/Classes/NSObject+MLWNCController.h"; sourceTree = "<group>"; };
-		D88952512A41E65AC3A7F0F781E51216 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D186B24A60D72D480492D8A34C293922 /* NCController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NCController-dummy.m"; sourceTree = "<group>"; };
+		D7E19EF2E611B4B1989EBA335E0884A1 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		D9CAF0A9D5149C0143CEBD98672571C6 /* NCController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NCController.framework; path = NCController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF47A2C215B48DD11DEF8DBD7A3DDCA /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVOController.modulemap; sourceTree = "<group>"; };
+		DDAE6097BF140CBC4D74908C0E763844 /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
 		DE0507746F1B4F9FC02D6B4290593351 /* Pods-Xross_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Xross_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E041288C5F909422626BA5A5372EE653 /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
-		E4886A3760659B5C930E266731FACA1C /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTConcreteProtocol.h; path = extobjc/EXTConcreteProtocol.h; sourceTree = "<group>"; };
-		E50ECDD6B6053EB3E941F3C310253904 /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
-		E57FBDC9D50E78144868E81D2D3E2138 /* Xross.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Xross.xcconfig; sourceTree = "<group>"; };
-		E5AAAAFF65923696A97CD707D88D7212 /* UAObfuscatedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UAObfuscatedString.framework; path = UAObfuscatedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D81C9E20FFD0588E98A59E0B42855B /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		E82C4D69AF0015802538C3B3F23211F8 /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
-		E89C5AA3BB23EBFB7A4ED0E9DCE7032B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EFE176B7D87F0C8208BF5BFA999572E4 /* NSObject+MLWNCController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MLWNCController.m"; path = "Pod/Classes/NSObject+MLWNCController.m"; sourceTree = "<group>"; };
-		F4066E9336D654E7551A54312A7ACD35 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "extobjc/NSInvocation+EXT.h"; sourceTree = "<group>"; };
-		F51032260D1DD9A6D1ED5B6FE45543D1 /* MLWXrossTransitionStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MLWXrossTransitionStack.m; sourceTree = "<group>"; };
-		F6B3EA8B1223AA788CBA72199CA07802 /* UIScrollView+MLWStickyKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MLWStickyKeyboard.m"; sourceTree = "<group>"; };
-		F6BBFFE27D42CF5C8EE61C11AB8E84C0 /* MLWXrossTransitionCube.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MLWXrossTransitionCube.h; sourceTree = "<group>"; };
-		F7B4952D9B0116582B89D279A882EF55 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+EXT.m"; path = "extobjc/NSInvocation+EXT.m"; sourceTree = "<group>"; };
-		F7F4712C8EFC20758FE1F838001B076A /* libextobjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libextobjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9221848598B5C11508165CB1BBD78A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F214CBC360153F462065AD70A6DC99 /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
+		E3420F45D0F84ECA3A8E61A3A8B34505 /* MLWXrossTransitionCube.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWXrossTransitionCube.m; path = Pod/MLWXrossTransitionCube.m; sourceTree = "<group>"; };
+		E39AF49942AA5F965B0EF7144D2787FE /* MLWXrossScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWXrossScrollView.m; path = Pod/MLWXrossScrollView.m; sourceTree = "<group>"; };
+		E3C15388ACDC89EEE48F9798C2F89E42 /* Pods_Xross_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Xross_Example.framework; path = "Pods-Xross_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E441F50D30D8885E3321AEB1D5499630 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
+		E636DE486E1F1EC663AF1989EC960125 /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTADT.h; path = extobjc/EXTADT.h; sourceTree = "<group>"; };
+		E63755004D4F58C4F855DBF1ABB526C7 /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		E82C90863B7927A57E9E9DDCDB7C6021 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		E870A63590E96A31360B51C9EDD29BDE /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
+		EB8E6F9486E4B377C31CEABC986FFC1E /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+EXT.m"; path = "extobjc/NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
+		ED8AECFD94D68DAACEDBD7AEB5FB9DE0 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+EXT.h"; path = "extobjc/NSInvocation+EXT.h"; sourceTree = "<group>"; };
+		EF445ED80338AB45CEAF393018542E27 /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTConcreteProtocol.m; path = extobjc/EXTConcreteProtocol.m; sourceTree = "<group>"; };
+		F2C42F53FB0D28F8E43B72478C2D821B /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		F36C12A0B8D8B70286C8214FEAF4B68A /* Xross-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Xross-prefix.pch"; sourceTree = "<group>"; };
+		F3A1C3370D8E54B5C4FBA3C47CE739EA /* MLWXrossViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWXrossViewController.m; path = Pod/MLWXrossViewController.m; sourceTree = "<group>"; };
+		F8DD24155C6E4C48550FC53E04BD8455 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F96CBBBC43D16598E29FA84D57829EE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99EF1C6165DFBEBEEAB008B29D22830 /* Xross.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Xross.modulemap; sourceTree = "<group>"; };
 		F9ED30DC9A35571226187A452EF7420C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1B84CF77C0A996DCC155551DEBCCAB /* MLWXrossTransitionFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MLWXrossTransitionFade.m; path = Pod/MLWXrossTransitionFade.m; sourceTree = "<group>"; };
+		FA9FD8AB5517839ECC0289442332E776 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTSafeCategory.m; path = extobjc/EXTSafeCategory.m; sourceTree = "<group>"; };
+		FC948A5380EB09B23D8AF436697AEAD3 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = extobjc/EXTScope.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,11 +283,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EBB08AD1DD0B845186F598924B89F78 /* Frameworks */ = {
+		187D6BBD2A1B0F87CB5C554DF5AE75A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788B01438E01A8DC2256D011CF6E8E7A /* Foundation.framework in Frameworks */,
+				4987F6E37565F75BE18E035653BD73AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,33 +307,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A727DAAF25262AF76C34528A297A127 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B02860324CFC43841B3C5E531CCBD1A1 /* Foundation.framework in Frameworks */,
-				C9BE6DAC8FBA4599096DF1900B416E91 /* JRSwizzle.framework in Frameworks */,
-				3F6A468344A3BD5130D02A40FE4E6173 /* KVOController.framework in Frameworks */,
-				65FCECFB6A4B180ECAECBD3FF104C27C /* libextobjc.framework in Frameworks */,
-				037309641C17E8A0411C1D1FC0445003 /* NCController.framework in Frameworks */,
-				963DB814E94C14FCF4074459CF756411 /* UAObfuscatedString.framework in Frameworks */,
-				44AE7B259522FFA452C9635107821D1B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5167C1D07143B25F2C68B307962CB1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3B924E4BA4E30E4CC1BE4EF2B6719522 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCAFF8DFE9D9E680610D24B080E96A83 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B43AD54373F614357C091DC084FC0B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,33 +323,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC6BCAE093FDB943853AEA79DF6E6FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7EC86F279F2CFEC9C346D60F45AA7C /* Foundation.framework in Frameworks */,
+				1CEC1084B4ED115686CE643BEF035807 /* JRSwizzle.framework in Frameworks */,
+				B5FF420C43F33BC1C42D6C812999F33E /* KVOController.framework in Frameworks */,
+				4C83E0FACB3815ED213323DC38954E3A /* libextobjc.framework in Frameworks */,
+				321AD4AA0A623D073F6A591B10F6062D /* NCController.framework in Frameworks */,
+				5261D6D83FD4FC8341129AD5299882ED /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DF4A5986CDBDD53C2CC88745C03D148 /* NSInvocation+EXT */ = {
+		07E6A95E132255CF4A45EEDF9DBC5FBD /* Xross */ = {
 			isa = PBXGroup;
 			children = (
-				F4066E9336D654E7551A54312A7ACD35 /* NSInvocation+EXT.h */,
-				F7B4952D9B0116582B89D279A882EF55 /* NSInvocation+EXT.m */,
+				02BCB6C0477BA6F0413109B6E18B3969 /* MLWXrossScrollView.h */,
+				E39AF49942AA5F965B0EF7144D2787FE /* MLWXrossScrollView.m */,
+				2765F5F9AAEEEF4C157BF2546683F54F /* MLWXrossTransition.h */,
+				3488EE60F41AAC0E517601CFDB375C28 /* MLWXrossTransition.m */,
+				7F51DF20C4769F5DC1157F7C6D8BE7D0 /* MLWXrossTransitionCube.h */,
+				E3420F45D0F84ECA3A8E61A3A8B34505 /* MLWXrossTransitionCube.m */,
+				5D91BC789519806A7C2D0BB6850FBB70 /* MLWXrossTransitionFade.h */,
+				FA1B84CF77C0A996DCC155551DEBCCAB /* MLWXrossTransitionFade.m */,
+				6670B28F175B2D53183E3459A09707CC /* MLWXrossTransitionStack.h */,
+				732B6EB85EB98DF2F208FBAB245D3F3E /* MLWXrossTransitionStack.m */,
+				41ED718BB1DC34562BA2FEE23025F7B2 /* MLWXrossViewController.h */,
+				F3A1C3370D8E54B5C4FBA3C47CE739EA /* MLWXrossViewController.m */,
+				431D55B67CBFE6D445C02D011F29303A /* UIResponder+MLWCurrentFirstResponder.h */,
+				B5A181F5B5E83F7780CC73CA3F64AA54 /* UIResponder+MLWCurrentFirstResponder.m */,
+				C26786201551A9E32FD2F38446F219CF /* UIScrollView+MLWNotScrollSuperview.h */,
+				29BB66D180F351D65538247F7FB24929 /* UIScrollView+MLWNotScrollSuperview.m */,
+				665E4C20EA00D5109E88EFC3757633E7 /* UIScrollView+MLWStickyKeyboard.h */,
+				AD8EB66E06703EA7DC830729514D300F /* UIScrollView+MLWStickyKeyboard.m */,
+				66D01A0A98D3BBC674CAF6A07BD9382D /* Xross.h */,
+				3A4B203E37CC5D6420722D2BEFE6E41B /* Support Files */,
 			);
-			name = "NSInvocation+EXT";
+			name = Xross;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		16C1C0401E03311CC232E346AD413ACB /* EXTSynthesize */ = {
+		1420A090526E1DE1C00650AF1771676E /* NSMethodSignature+EXT */ = {
 			isa = PBXGroup;
 			children = (
-				04C0AE207B74D8B2D234DDD24A00FEF0 /* EXTSynthesize.h */,
-			);
-			name = EXTSynthesize;
-			sourceTree = "<group>";
-		};
-		23417A25E84A9D22F61E19548899F07A /* NSMethodSignature+EXT */ = {
-			isa = PBXGroup;
-			children = (
-				A9E99811E0AEDA80B01FBDE47B5D4A33 /* NSMethodSignature+EXT.h */,
-				7D31A5BD4EACD43E9EDA4CB49D454651 /* NSMethodSignature+EXT.m */,
+				A3277F5C138C6477D5E21D71F0CE6FEF /* NSMethodSignature+EXT.h */,
+				EB8E6F9486E4B377C31CEABC986FFC1E /* NSMethodSignature+EXT.m */,
 			);
 			name = "NSMethodSignature+EXT";
+			sourceTree = "<group>";
+		};
+		217E9649CB06BF4C28C8F1BAFD58611F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F96CBBBC43D16598E29FA84D57829EE7 /* Info.plist */,
+				06A60079297BFE02CFB306CCB8B14FF2 /* NCController.modulemap */,
+				7A2BE94AA9B3F0BC126C6375E5A6ACF5 /* NCController.xcconfig */,
+				D186B24A60D72D480492D8A34C293922 /* NCController-dummy.m */,
+				19FBEAEEA02823145EA692306053D120 /* NCController-prefix.pch */,
+				1E643FD684C13DABC9A16DD901B35783 /* NCController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NCController";
 			sourceTree = "<group>";
 		};
 		26E6A4D913B92EA98A45BEC95248BF15 /* Pods-Xross_Example */ = {
@@ -422,173 +408,113 @@
 			path = "Target Support Files/Pods-Xross_Example";
 			sourceTree = "<group>";
 		};
-		2E17FE93687B028AB34D7B5BFDFADE28 /* UmbrellaHeader */ = {
+		3253B794AD71E4A8642FC58E07F3A07E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9C3C4D2FB21B9C6B7969282311A1B9A8 /* extobjc.h */,
-			);
-			name = UmbrellaHeader;
-			sourceTree = "<group>";
-		};
-		2FCA865603821AE5ABC9F1F4CBE7F8C6 /* EXTScope */ = {
-			isa = PBXGroup;
-			children = (
-				B812C0E767E28F93DFEC1337AA19ACF5 /* EXTScope.h */,
-				698143AAE5B3CE5742951B520ECC517A /* EXTScope.m */,
-			);
-			name = EXTScope;
-			sourceTree = "<group>";
-		};
-		36415D6AC1283E727DB103B98C09F7E9 /* EXTADT */ = {
-			isa = PBXGroup;
-			children = (
-				218EAADAEF476CDA2FA7453480ADE8A6 /* EXTADT.h */,
-				503E52B5053315EAEA2729EC2B76D09D /* EXTADT.m */,
-			);
-			name = EXTADT;
-			sourceTree = "<group>";
-		};
-		47D6512C041C5697FF8EA03137D61B0F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F75E23CB3BAA7426283F4E5013C7780C /* Xross */,
+				07E6A95E132255CF4A45EEDF9DBC5FBD /* Xross */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4DAD5E3F046CEC12B78086DC4E620674 /* JRSwizzle */ = {
+		337FE5BD74072CB7EF157B52F6F1BBCE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E50ECDD6B6053EB3E941F3C310253904 /* JRSwizzle.h */,
-				B579C7570A1E6C94C7E2C04AA316EF2E /* JRSwizzle.m */,
-				6601F6A6BC24AA95EA314F9E2D8F9B73 /* Support Files */,
+				558D1667D34620BEC22ADE5CF453A69F /* JRSwizzle */,
+				4EE0B00838F2576DC33B70C9C950EB18 /* KVOController */,
+				471FF8E170FE462F0C189F64310E64DB /* libextobjc */,
+				8BF63D5ADEEB53A63DC66A7E1569A9E5 /* NCController */,
 			);
-			name = JRSwizzle;
-			path = JRSwizzle;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		56C99D257BFF76AC90551FFA379E9F12 /* Support Files */ = {
+		3A4B203E37CC5D6420722D2BEFE6E41B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46C529C8CD3129EC64F7FA9660A80706 /* Info.plist */,
-				1D34F74F9B1283DCB627BAE212786043 /* KVOController.modulemap */,
-				01FBDDA711B89F1510297EFB5CEAEA8B /* KVOController.xcconfig */,
-				E82C4D69AF0015802538C3B3F23211F8 /* KVOController-dummy.m */,
-				AD569FFCD1A9B1361869D2F335EF4FC8 /* KVOController-prefix.pch */,
-				098C2001D2DD79814F62BE6966133890 /* KVOController-umbrella.h */,
+				AF4D9EBE91C66070DF9D83CA1A567CB7 /* Info.plist */,
+				F99EF1C6165DFBEBEEAB008B29D22830 /* Xross.modulemap */,
+				A9E2861A407C2BD7F222BC89A77B737D /* Xross.xcconfig */,
+				7C2B6795661F71B1FAD8B12BCA47F2AA /* Xross-dummy.m */,
+				F36C12A0B8D8B70286C8214FEAF4B68A /* Xross-prefix.pch */,
+				AB42DC3BC9A3195F5AB7A94CE370DFE4 /* Xross-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Xross";
+			sourceTree = "<group>";
+		};
+		3EB8B11CEFE87821A509AF2F779038E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				883A2FBFADCFEF07F46725CB9EC6F469 /* Info.plist */,
+				DCF47A2C215B48DD11DEF8DBD7A3DDCA /* KVOController.modulemap */,
+				8F2EC1C94079FEA41C8EEBB3928C51D8 /* KVOController.xcconfig */,
+				1718249ED0676DDCED8DE50BA0C74FEC /* KVOController-dummy.m */,
+				E63755004D4F58C4F855DBF1ABB526C7 /* KVOController-prefix.pch */,
+				E2F214CBC360153F462065AD70A6DC99 /* KVOController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KVOController";
 			sourceTree = "<group>";
 		};
-		58CEE9545D91E9496503F87FCA78A707 /* Pods */ = {
+		471FF8E170FE462F0C189F64310E64DB /* libextobjc */ = {
 			isa = PBXGroup;
 			children = (
-				4DAD5E3F046CEC12B78086DC4E620674 /* JRSwizzle */,
-				9234CB9FA693A0F8087F8EE6776B987D /* KVOController */,
-				C7E140A28F9672A73C511C1DAB35E260 /* libextobjc */,
-				742F8E065D4108E562CFCFF9293A4FB4 /* NCController */,
-				B2691F9C09F3685699B91745BDF88B6C /* UAObfuscatedString */,
+				ED582DEB35F9F9F84BC9AEFB40032DA3 /* EXTADT */,
+				FE2ACC80289DC09CFDAB7CB45BF6A94A /* EXTConcreteProtocol */,
+				984E84834FD6E3F15C8D8F439416615F /* EXTKeyPathCoding */,
+				A1A81F55B3395275F108FC439C3A02CF /* EXTNil */,
+				C9BECC28FE96553A5007F7B0506CEFC9 /* EXTSafeCategory */,
+				A22617ADD7987432BABF453695A71624 /* EXTScope */,
+				FCF06FF3B6428D2633BD2DA615FDFA25 /* EXTSelectorChecking */,
+				4FEE202BB5CB17B91238042A96D1508F /* EXTSynthesize */,
+				F524D4107A5FBD2CA21E024B33D2F2B7 /* NSInvocation+EXT */,
+				1420A090526E1DE1C00650AF1771676E /* NSMethodSignature+EXT */,
+				7782CCCE4AFF30221A3A50C00D0C6EAB /* RuntimeExtensions */,
+				F251430D81C2C4E4718C0275CF6C6217 /* Support Files */,
+				A3B7CED0B95AEE6F88461C3EE4D12142 /* UmbrellaHeader */,
 			);
-			name = Pods;
+			name = libextobjc;
+			path = libextobjc;
 			sourceTree = "<group>";
 		};
-		590B2E0C8847876A69DFEE520F36E89F /* EXTSelectorChecking */ = {
+		4EE0B00838F2576DC33B70C9C950EB18 /* KVOController */ = {
 			isa = PBXGroup;
 			children = (
-				2A2B7E3E8A657619ABDD772B039D550C /* EXTSelectorChecking.h */,
-				30EC83E3110566B41F151E882374FB56 /* EXTSelectorChecking.m */,
+				D7E19EF2E611B4B1989EBA335E0884A1 /* FBKVOController.h */,
+				5D4BC0D7881279A750B5B5D16BE4BF3E /* FBKVOController.m */,
+				E441F50D30D8885E3321AEB1D5499630 /* KVOController.h */,
+				C207439FDFEEFFC1E9F7F4C30D114F95 /* NSObject+FBKVOController.h */,
+				98CFB53465FE51FEFE8F7F8A814AD524 /* NSObject+FBKVOController.m */,
+				3EB8B11CEFE87821A509AF2F779038E9 /* Support Files */,
 			);
-			name = EXTSelectorChecking;
+			name = KVOController;
+			path = KVOController;
 			sourceTree = "<group>";
 		};
-		5D0CBB767C0A6C1F79049AD5DE85E824 /* Pod */ = {
+		4FEE202BB5CB17B91238042A96D1508F /* EXTSynthesize */ = {
 			isa = PBXGroup;
 			children = (
-				5703B6AA1B33DFD94FCBD425C6ECE1C6 /* MLWXrossScrollView.h */,
-				52C962401C40A9808342C710F7754551 /* MLWXrossScrollView.m */,
-				8442DC493F1008D7B0C287B98CADAC5E /* MLWXrossTransition.h */,
-				A54E367FAD1135A840B2F39F202AB9B1 /* MLWXrossTransition.m */,
-				F6BBFFE27D42CF5C8EE61C11AB8E84C0 /* MLWXrossTransitionCube.h */,
-				AEC7E28C290A1DFDA158A0DD64DA78F4 /* MLWXrossTransitionCube.m */,
-				0FD738DA5C0C3EBC693AFA317F4790B6 /* MLWXrossTransitionFade.h */,
-				14CCFD46701E3079C6759B3BF1172645 /* MLWXrossTransitionFade.m */,
-				1436071E07EFF23D16D99734BD945647 /* MLWXrossTransitionStack.h */,
-				F51032260D1DD9A6D1ED5B6FE45543D1 /* MLWXrossTransitionStack.m */,
-				6696192AD172E492686187208B740FE2 /* MLWXrossViewController.h */,
-				38A1B01BEABBB9F210DE24A6D00C3B7E /* MLWXrossViewController.m */,
-				4D299ADE35D3D0E124B3B04528BABD88 /* UIResponder+MLWCurrentFirstResponder.h */,
-				7352796116DD0DC4E02FCD7D58E7B70F /* UIResponder+MLWCurrentFirstResponder.m */,
-				2092BAE512F348586540C2335D3C4B57 /* UIScrollView+MLWNotScrollSuperview.h */,
-				BC8DD88BC92C10AD94FEC519E1E4B80F /* UIScrollView+MLWNotScrollSuperview.m */,
-				1392A679370CD81D9E59C1C9579E3376 /* UIScrollView+MLWStickyKeyboard.h */,
-				F6B3EA8B1223AA788CBA72199CA07802 /* UIScrollView+MLWStickyKeyboard.m */,
-				09393AEA1C944063C2522F93263D0E06 /* Xross.h */,
+				97F883C28C35FC036C43BE2224A40EE1 /* EXTSynthesize.h */,
 			);
-			name = Pod;
-			path = Pod;
+			name = EXTSynthesize;
 			sourceTree = "<group>";
 		};
-		63599F33DF9BA6E4AF51E911F4CFAA8C /* EXTKeyPathCoding */ = {
+		558D1667D34620BEC22ADE5CF453A69F /* JRSwizzle */ = {
 			isa = PBXGroup;
 			children = (
-				E7D81C9E20FFD0588E98A59E0B42855B /* EXTKeyPathCoding.h */,
+				BA3CE34C1B7DD74FD391950BCFA6C631 /* JRSwizzle.h */,
+				92BF49979990EF520E6CF9B435AA3C11 /* JRSwizzle.m */,
+				FA84C68C7D90AAF2272D2B1856798038 /* Support Files */,
 			);
-			name = EXTKeyPathCoding;
+			name = JRSwizzle;
+			path = JRSwizzle;
 			sourceTree = "<group>";
 		};
-		6601F6A6BC24AA95EA314F9E2D8F9B73 /* Support Files */ = {
+		7782CCCE4AFF30221A3A50C00D0C6EAB /* RuntimeExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				F9221848598B5C11508165CB1BBD78A3 /* Info.plist */,
-				C0F143C2ADD6A8CAD5BE075E9695922F /* JRSwizzle.modulemap */,
-				14FEF028EE845D8122D58AEF840B7C59 /* JRSwizzle.xcconfig */,
-				8E609DD62C2EB1B60119C98EB447D524 /* JRSwizzle-dummy.m */,
-				E041288C5F909422626BA5A5372EE653 /* JRSwizzle-prefix.pch */,
-				B1FA18E423D0421AF56525E81F7A6933 /* JRSwizzle-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JRSwizzle";
-			sourceTree = "<group>";
-		};
-		6817F0C452921305F70817D527933BF4 /* EXTConcreteProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				E4886A3760659B5C930E266731FACA1C /* EXTConcreteProtocol.h */,
-				120100492283D39A4F0FFAE097C0123F /* EXTConcreteProtocol.m */,
-			);
-			name = EXTConcreteProtocol;
-			sourceTree = "<group>";
-		};
-		6EBE24FEB4B5BCA86403672D49B8237C /* EXTSafeCategory */ = {
-			isa = PBXGroup;
-			children = (
-				401AF61D44A31630A261104FD1B3EC32 /* EXTSafeCategory.h */,
-				4D843AE000C353E5781B1498A9D74EE8 /* EXTSafeCategory.m */,
-			);
-			name = EXTSafeCategory;
-			sourceTree = "<group>";
-		};
-		742F8E065D4108E562CFCFF9293A4FB4 /* NCController */ = {
-			isa = PBXGroup;
-			children = (
-				3FD309D77AAE25876C81527A6B41073E /* MLWNCController.h */,
-				5513BA22427EFDF9CE1433662139D323 /* MLWNCController.m */,
-				5B48BC8A9F9C589B627A47F934B62AE7 /* NCController.h */,
-				D34BB232678E26BE2BC263CC1A8D3A69 /* NSObject+MLWNCController.h */,
-				EFE176B7D87F0C8208BF5BFA999572E4 /* NSObject+MLWNCController.m */,
-				BBFAAD04628C97FEF94FD277B82CC0FE /* Support Files */,
-			);
-			name = NCController;
-			path = NCController;
-			sourceTree = "<group>";
-		};
-		755CC98EA12C0E1D6775CC521D6BE57D /* RuntimeExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				29CA393E6C10FBA4057F45A630061F5F /* EXTRuntimeExtensions.h */,
-				91F8B8A671D846EF02C52745323E1331 /* EXTRuntimeExtensions.m */,
-				AA5F99133DB44D43A4A79679A4B8EBC4 /* metamacros.h */,
+				5EE6CA24EEDD8790B831CC075132E39D /* EXTRuntimeExtensions.h */,
+				F2C42F53FB0D28F8E43B72478C2D821B /* EXTRuntimeExtensions.m */,
+				A9F93E2123B6588072C60B734714EBB4 /* metamacros.h */,
 			);
 			name = RuntimeExtensions;
 			sourceTree = "<group>";
@@ -597,21 +523,26 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				47D6512C041C5697FF8EA03137D61B0F /* Development Pods */,
-				D1048E1FDE8C645C2589FD4BD061B630 /* Frameworks */,
-				58CEE9545D91E9496503F87FCA78A707 /* Pods */,
-				BE34618850BAE95FD7CC73C854052B86 /* Products */,
+				3253B794AD71E4A8642FC58E07F3A07E /* Development Pods */,
+				E2CFD3F62177B94CEB350BA2ECB03118 /* Frameworks */,
+				337FE5BD74072CB7EF157B52F6F1BBCE /* Pods */,
+				903BF090A1095FA163FD466271CAA546 /* Products */,
 				8E871CA0F04E5572476F0FCF81748E41 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8C35C8C188F08046D02DC85044FFB9AF /* iOS */ = {
+		8BF63D5ADEEB53A63DC66A7E1569A9E5 /* NCController */ = {
 			isa = PBXGroup;
 			children = (
-				A77D9F2CB020A2763F66D217F161BB2F /* Foundation.framework */,
-				E89C5AA3BB23EBFB7A4ED0E9DCE7032B /* UIKit.framework */,
+				B2123F7CAB30A6A8ACACB7DECC1777C2 /* MLWNCController.h */,
+				2729A1BECBE7EBAE20C032A5DB1FE0E2 /* MLWNCController.m */,
+				248919F26993C994A8922FEFA7F6F81A /* NCController.h */,
+				57B6E9608F5DF7555BCF295896DE4A46 /* NSObject+MLWNCController.h */,
+				4996203795603613036374C5DAE4A6CA /* NSObject+MLWNCController.m */,
+				217E9649CB06BF4C28C8F1BAFD58611F /* Support Files */,
 			);
-			name = iOS;
+			name = NCController;
+			path = NCController;
 			sourceTree = "<group>";
 		};
 		8E871CA0F04E5572476F0FCF81748E41 /* Targets Support Files */ = {
@@ -623,153 +554,114 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9234CB9FA693A0F8087F8EE6776B987D /* KVOController */ = {
+		903BF090A1095FA163FD466271CAA546 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6614EF7104B6F1C42C10A41281968660 /* FBKVOController.h */,
-				938D1B3BD4992B44EEF1602574F7B075 /* FBKVOController.m */,
-				3DFF00F1D301F52B0DA7F4EA9D464F62 /* KVOController.h */,
-				D2EA24311DA4A02D7A80DCFD07BC7DEC /* NSObject+FBKVOController.h */,
-				94FF5E18568C105FE5E47138A93B6F2E /* NSObject+FBKVOController.m */,
-				56C99D257BFF76AC90551FFA379E9F12 /* Support Files */,
-			);
-			name = KVOController;
-			path = KVOController;
-			sourceTree = "<group>";
-		};
-		A5BC8BE406E3B0B9F13AB37A98566DAC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D1E0D700272C47F78754207152650EDA /* Info.plist */,
-				7E36068A8EE31C1998EB5949040E5EE8 /* Xross.modulemap */,
-				E57FBDC9D50E78144868E81D2D3E2138 /* Xross.xcconfig */,
-				9098D6DD8033E48A1812381AAFFEC9F5 /* Xross-dummy.m */,
-				43A26AEF361B0C9E242F97D7C29A9A71 /* Xross-prefix.pch */,
-				6E723CF32578126950DF73B35915810F /* Xross-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Xross";
-			sourceTree = "<group>";
-		};
-		B2691F9C09F3685699B91745BDF88B6C /* UAObfuscatedString */ = {
-			isa = PBXGroup;
-			children = (
-				CCBFD435E57C76E3E3363D84FF1716A1 /* UAObfuscatedString.h */,
-				307BC2AA8C1B8DC7D576954079C132E9 /* UAObfuscatedString.m */,
-				C824AB5E9A06D136B9EA6967A71D2051 /* Support Files */,
-			);
-			name = UAObfuscatedString;
-			path = UAObfuscatedString;
-			sourceTree = "<group>";
-		};
-		B4F7E27E97CA147CEEE6D62CD61042B9 /* EXTNil */ = {
-			isa = PBXGroup;
-			children = (
-				1A859C437090E3340A63ED172561A40E /* EXTNil.h */,
-				40DDB89F09EFB9965689F2CA28A88473 /* EXTNil.m */,
-			);
-			name = EXTNil;
-			sourceTree = "<group>";
-		};
-		BBFAAD04628C97FEF94FD277B82CC0FE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				015A1802204FF06A43D34D42FBFE2AFD /* Info.plist */,
-				682C9A8457E0045E08AF33B9E659EA7F /* NCController.modulemap */,
-				4A38D14DC106FCBA88EBCBCF9B0A67DC /* NCController.xcconfig */,
-				1018B325CD5876C9D4AD7373BA81E39D /* NCController-dummy.m */,
-				42E77E38F6F0AF14681B85E252E05D25 /* NCController-prefix.pch */,
-				21544169782AB3F705EA6FB0361F0545 /* NCController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/NCController";
-			sourceTree = "<group>";
-		};
-		BE34618850BAE95FD7CC73C854052B86 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6A1C74BD54D5B2B4D673F7DB9D636818 /* JRSwizzle.framework */,
-				2DC7966EFF089A7132513E8D7AB17565 /* KVOController.framework */,
-				08F275E69894206709995EA97A98EE98 /* libextobjc.framework */,
-				78617BB9462C6EA05CE9DA329ADAB62D /* NCController.framework */,
-				82D9CA9610028B982CE1DC8AC08CD54C /* Pods_Xross_Example.framework */,
-				3712F1E4F490F9B0A4FEF47553B4AE3E /* Pods_Xross_Tests.framework */,
-				E5AAAAFF65923696A97CD707D88D7212 /* UAObfuscatedString.framework */,
-				A77F9547DA05C6946AB43D39683D726E /* Xross.framework */,
+				4168C77A04B8706F99F986978A2E993A /* JRSwizzle.framework */,
+				27354C8AB28365C64B9484F8155E12AE /* KVOController.framework */,
+				033C1B203183971B0E87DD9AB4E4782A /* libextobjc.framework */,
+				D9CAF0A9D5149C0143CEBD98672571C6 /* NCController.framework */,
+				E3C15388ACDC89EEE48F9798C2F89E42 /* Pods_Xross_Example.framework */,
+				024F27180B5A3A8AF9D9914D8A19C4FE /* Pods_Xross_Tests.framework */,
+				78CCC689C52B58544AAA5A7D28828980 /* Xross.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7E140A28F9672A73C511C1DAB35E260 /* libextobjc */ = {
+		984E84834FD6E3F15C8D8F439416615F /* EXTKeyPathCoding */ = {
 			isa = PBXGroup;
 			children = (
-				36415D6AC1283E727DB103B98C09F7E9 /* EXTADT */,
-				6817F0C452921305F70817D527933BF4 /* EXTConcreteProtocol */,
-				63599F33DF9BA6E4AF51E911F4CFAA8C /* EXTKeyPathCoding */,
-				B4F7E27E97CA147CEEE6D62CD61042B9 /* EXTNil */,
-				6EBE24FEB4B5BCA86403672D49B8237C /* EXTSafeCategory */,
-				2FCA865603821AE5ABC9F1F4CBE7F8C6 /* EXTScope */,
-				590B2E0C8847876A69DFEE520F36E89F /* EXTSelectorChecking */,
-				16C1C0401E03311CC232E346AD413ACB /* EXTSynthesize */,
-				0DF4A5986CDBDD53C2CC88745C03D148 /* NSInvocation+EXT */,
-				23417A25E84A9D22F61E19548899F07A /* NSMethodSignature+EXT */,
-				755CC98EA12C0E1D6775CC521D6BE57D /* RuntimeExtensions */,
-				D0ED2B526075D5E6E183EEC06CA07412 /* Support Files */,
-				2E17FE93687B028AB34D7B5BFDFADE28 /* UmbrellaHeader */,
+				E82C90863B7927A57E9E9DDCDB7C6021 /* EXTKeyPathCoding.h */,
 			);
-			name = libextobjc;
-			path = libextobjc;
+			name = EXTKeyPathCoding;
 			sourceTree = "<group>";
 		};
-		C824AB5E9A06D136B9EA6967A71D2051 /* Support Files */ = {
+		A1A81F55B3395275F108FC439C3A02CF /* EXTNil */ = {
 			isa = PBXGroup;
 			children = (
-				D88952512A41E65AC3A7F0F781E51216 /* Info.plist */,
-				5846216283299B7935F63B926BF76567 /* UAObfuscatedString.modulemap */,
-				0B2EC6FFBAC7CB1E8417B1F8AF4BB56D /* UAObfuscatedString.xcconfig */,
-				3E70EFA9E2C8C85BEAAD197E7176E8DE /* UAObfuscatedString-dummy.m */,
-				CE3C2AF14E536E4A8E4EA249780BD39B /* UAObfuscatedString-prefix.pch */,
-				9642A7B4901595165FB2D2F5D2C59B51 /* UAObfuscatedString-umbrella.h */,
+				53612062DE233605672B0DB314D3F7CE /* EXTNil.h */,
+				3F7EAE1179F66F2F7A1D09D5A9607462 /* EXTNil.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/UAObfuscatedString";
+			name = EXTNil;
 			sourceTree = "<group>";
 		};
-		D0ED2B526075D5E6E183EEC06CA07412 /* Support Files */ = {
+		A22617ADD7987432BABF453695A71624 /* EXTScope */ = {
 			isa = PBXGroup;
 			children = (
-				8FFA2C34A2349DCC3160A0AA0AE89619 /* Info.plist */,
-				9FEB80C25C4CBCF626ED623031B9382A /* libextobjc.modulemap */,
-				2F7F19F957D52B05127584CB0B52188C /* libextobjc.xcconfig */,
-				311CF622A3C159D6AD17A7F8DD4F8566 /* libextobjc-dummy.m */,
-				1391EF1929ED9E932E742E32D22DA24A /* libextobjc-prefix.pch */,
-				4C6FDDD57FCCDC2863B91B0B68797251 /* libextobjc-umbrella.h */,
+				9E41FE8B008CC15E973C3709D51F87F8 /* EXTScope.h */,
+				FC948A5380EB09B23D8AF436697AEAD3 /* EXTScope.m */,
+			);
+			name = EXTScope;
+			sourceTree = "<group>";
+		};
+		A3B7CED0B95AEE6F88461C3EE4D12142 /* UmbrellaHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9951E819837D07EAFC58A3B746B8C59A /* extobjc.h */,
+			);
+			name = UmbrellaHeader;
+			sourceTree = "<group>";
+		};
+		C9BECC28FE96553A5007F7B0506CEFC9 /* EXTSafeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA415344DC021E9ABE6FD106070094 /* EXTSafeCategory.h */,
+				FA9FD8AB5517839ECC0289442332E776 /* EXTSafeCategory.m */,
+			);
+			name = EXTSafeCategory;
+			sourceTree = "<group>";
+		};
+		D3547B521B93654EA66E9949E41E5F41 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B702A069E8E88F9A4F7D45BEB182E9C7 /* Foundation.framework */,
+				F8DD24155C6E4C48550FC53E04BD8455 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2CFD3F62177B94CEB350BA2ECB03118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B402592CF8E8B570E456883F6EF065F /* JRSwizzle.framework */,
+				B7EAC72DB8736C42DFD73F844C017045 /* KVOController.framework */,
+				8B112F85D6BEA0503BCB5F94E6DE55E0 /* libextobjc.framework */,
+				836CF75784EAD76E6615D88168C78D20 /* NCController.framework */,
+				D3547B521B93654EA66E9949E41E5F41 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED582DEB35F9F9F84BC9AEFB40032DA3 /* EXTADT */ = {
+			isa = PBXGroup;
+			children = (
+				E636DE486E1F1EC663AF1989EC960125 /* EXTADT.h */,
+				8FD0F6984DD5B2B9002ADA0B7C99FDD6 /* EXTADT.m */,
+			);
+			name = EXTADT;
+			sourceTree = "<group>";
+		};
+		F251430D81C2C4E4718C0275CF6C6217 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35BC0A5C4EB5E0668E0F172D5F3CFABC /* Info.plist */,
+				437490FDC9F3171E76B925348B0A4BF4 /* libextobjc.modulemap */,
+				5CED7D2E58EA5A9DB2185E6118B8EA12 /* libextobjc.xcconfig */,
+				754E82DD6E09AE711A8F07BB565CEFE5 /* libextobjc-dummy.m */,
+				AF55AEBE2E3C229E2D08FF9A2BF731B0 /* libextobjc-prefix.pch */,
+				AD60D27874B987E8A0D630B9E0577318 /* libextobjc-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/libextobjc";
 			sourceTree = "<group>";
 		};
-		D1048E1FDE8C645C2589FD4BD061B630 /* Frameworks */ = {
+		F524D4107A5FBD2CA21E024B33D2F2B7 /* NSInvocation+EXT */ = {
 			isa = PBXGroup;
 			children = (
-				717CD2803EC733298BC8DCD388550DE6 /* JRSwizzle.framework */,
-				163EB4F702F912D145B9BD4DBB11CB60 /* KVOController.framework */,
-				F7F4712C8EFC20758FE1F838001B076A /* libextobjc.framework */,
-				BEF59CD9F3581D494208C857A929127C /* NCController.framework */,
-				62A06DA06B089FB3F4D0404CE43F73AE /* UAObfuscatedString.framework */,
-				8C35C8C188F08046D02DC85044FFB9AF /* iOS */,
+				ED8AECFD94D68DAACEDBD7AEB5FB9DE0 /* NSInvocation+EXT.h */,
+				0EEDCE91DD7B8A0969EFF5C1B7AEC9F2 /* NSInvocation+EXT.m */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F75E23CB3BAA7426283F4E5013C7780C /* Xross */ = {
-			isa = PBXGroup;
-			children = (
-				5D0CBB767C0A6C1F79049AD5DE85E824 /* Pod */,
-				A5BC8BE406E3B0B9F13AB37A98566DAC /* Support Files */,
-			);
-			name = Xross;
-			path = ../..;
+			name = "NSInvocation+EXT";
 			sourceTree = "<group>";
 		};
 		F99CD88FF0E7ACCAA63A2B07EF93A506 /* Pods-Xross_Tests */ = {
@@ -790,27 +682,41 @@
 			path = "Target Support Files/Pods-Xross_Tests";
 			sourceTree = "<group>";
 		};
+		FA84C68C7D90AAF2272D2B1856798038 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F99368FEF59BA0E3B796ADE5BDF7DE1 /* Info.plist */,
+				DDAE6097BF140CBC4D74908C0E763844 /* JRSwizzle.modulemap */,
+				E870A63590E96A31360B51C9EDD29BDE /* JRSwizzle.xcconfig */,
+				A2C28D783BFCFDC2A95330DEB6E71601 /* JRSwizzle-dummy.m */,
+				34887E1ECB0ECEE39188BA61D45F58EB /* JRSwizzle-prefix.pch */,
+				9085D33AD2321E0EB4CD70A3EA29200A /* JRSwizzle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JRSwizzle";
+			sourceTree = "<group>";
+		};
+		FCF06FF3B6428D2633BD2DA615FDFA25 /* EXTSelectorChecking */ = {
+			isa = PBXGroup;
+			children = (
+				4C6D965653547CD5755BC6C361E0FAEF /* EXTSelectorChecking.h */,
+				41A205AF51A32FA9499FB794E2F673AC /* EXTSelectorChecking.m */,
+			);
+			name = EXTSelectorChecking;
+			sourceTree = "<group>";
+		};
+		FE2ACC80289DC09CFDAB7CB45BF6A94A /* EXTConcreteProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				26043160E575E4562A1CA345427BC3F3 /* EXTConcreteProtocol.h */,
+				EF445ED80338AB45CEAF393018542E27 /* EXTConcreteProtocol.m */,
+			);
+			name = EXTConcreteProtocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D1C71F4F8B6FB20E5C03AC050FB50F8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				484C1959028EAF4D225E18CBB1699EF3 /* MLWXrossScrollView.h in Headers */,
-				A346913E10BF7515C0CAF9077FBA7F89 /* MLWXrossTransition.h in Headers */,
-				D0662B585C8AD4373F2336E0EDF6C324 /* MLWXrossTransitionCube.h in Headers */,
-				416D108A8F57D950C15742E8DD1024A4 /* MLWXrossTransitionFade.h in Headers */,
-				4114046C30E2CA04F8192A256F2B512F /* MLWXrossTransitionStack.h in Headers */,
-				232AB77BCF013A81ED2CBC2D7380CAE1 /* MLWXrossViewController.h in Headers */,
-				042B9E1FB6F313F3E918A99C3739E744 /* UIResponder+MLWCurrentFirstResponder.h in Headers */,
-				C7A681C2A771064F93FD0BA515FD12B3 /* UIScrollView+MLWNotScrollSuperview.h in Headers */,
-				C4D7FDF7EB15751105299D2748E99D8D /* UIScrollView+MLWStickyKeyboard.h in Headers */,
-				BAC62980C6A89A649FB9F7DB296AFD47 /* Xross-umbrella.h in Headers */,
-				2050BDA6CC2C6CB3C577D5E5726D2A84 /* Xross.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F39875707A60FF0FBFEE847D4A2E1DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -820,20 +726,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49ABA9B54B6241BE5EA0069AC72B9C19 /* Headers */ = {
+		2C733B3E449021DFEAFE96040B6B0BE7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8490CDC9AB7FBB493CACD7C326EBEA1E /* UAObfuscatedString-umbrella.h in Headers */,
-				A9B16FDEA8B70BA9290AD6F728606AB5 /* UAObfuscatedString.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D785031218F32FF46ACD8476A89FA12 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8130A4259DCC93DDCD214164EF0B92F /* Pods-Xross_Example-umbrella.h in Headers */,
+				86E009E13D6F52AAB50AF775371E0EC7 /* MLWXrossScrollView.h in Headers */,
+				59A8A910A7F5E6C529B790D330DEF9C0 /* MLWXrossTransition.h in Headers */,
+				231556D149B9EC7BA5CC9E88E6335F84 /* MLWXrossTransitionCube.h in Headers */,
+				0D61D0FD3307EC9425660A43D98EEEC6 /* MLWXrossTransitionFade.h in Headers */,
+				4F99C8B4C35F77C1046110033350D979 /* MLWXrossTransitionStack.h in Headers */,
+				D995817FEF86CA39E32B95DCDBAB569D /* MLWXrossViewController.h in Headers */,
+				CDEFD70134E2EAB0FD4192A4AF7BC331 /* UIResponder+MLWCurrentFirstResponder.h in Headers */,
+				0F79C799129D1F42EC83C31CE3A59CCF /* UIScrollView+MLWNotScrollSuperview.h in Headers */,
+				59A61398084FCCAD3C60F4075D6DAC81 /* UIScrollView+MLWStickyKeyboard.h in Headers */,
+				595BCC763980A11A84BD43E7AB322CEB /* Xross-umbrella.h in Headers */,
+				C62C2AA6FFFCA71851F47887027738D1 /* Xross.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -877,6 +784,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6CA0B0F401C3DA3FC4BF9D9AEE1A98D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B52D6CC2D8AB18B8853D0DEF50B0C /* Pods-Xross_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF8C1B3C1E0BF2B07986011A84A6E26F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -891,43 +806,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		22F71A59D58B82942C1380C0347D6A59 /* Xross */ = {
+		32FE0BEEFD5370F9B1FDC022CA2E8C38 /* Xross */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FAF2BE54715FD13EC6EEC401ED73441 /* Build configuration list for PBXNativeTarget "Xross" */;
+			buildConfigurationList = D56DA34E73CB04DC6F33FEE5B8B992D3 /* Build configuration list for PBXNativeTarget "Xross" */;
 			buildPhases = (
-				EE69A2D29B22CDDAEDACA745C9A961C1 /* Sources */,
-				6A727DAAF25262AF76C34528A297A127 /* Frameworks */,
-				0D1C71F4F8B6FB20E5C03AC050FB50F8 /* Headers */,
+				44E0CA5F6825A2A64ECB35C53734BD59 /* Sources */,
+				CC6BCAE093FDB943853AEA79DF6E6FDD /* Frameworks */,
+				2C733B3E449021DFEAFE96040B6B0BE7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				536CD7FC133D5D2876A8653E0635857A /* PBXTargetDependency */,
-				8F9C3698F9E6FDFF6E97C315CEE90D07 /* PBXTargetDependency */,
-				DF75DA2CBDCF970B8E80835E53855CD6 /* PBXTargetDependency */,
-				3ED94212BCF18E0697B487CE0640B433 /* PBXTargetDependency */,
-				0BED38D4840E121AAD6C7DF4BD57489C /* PBXTargetDependency */,
+				B677124D03791E360DBB8090809BA264 /* PBXTargetDependency */,
+				BB518952A7EFD6366B77393D3E54BCDE /* PBXTargetDependency */,
+				3AC8B59800A8FE71D03704357CB4DF74 /* PBXTargetDependency */,
+				70FAE2129FA5FD79FFBF20D344781573 /* PBXTargetDependency */,
 			);
 			name = Xross;
 			productName = Xross;
-			productReference = A77F9547DA05C6946AB43D39683D726E /* Xross.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3B1F3C918078CBDC87B92B0035B99B68 /* UAObfuscatedString */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43CC25663E6CC1B0743D257BCD95DE38 /* Build configuration list for PBXNativeTarget "UAObfuscatedString" */;
-			buildPhases = (
-				CD5537F4C9F238A7747601AA9A5F1DD3 /* Sources */,
-				4EBB08AD1DD0B845186F598924B89F78 /* Frameworks */,
-				49ABA9B54B6241BE5EA0069AC72B9C19 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = UAObfuscatedString;
-			productName = UAObfuscatedString;
-			productReference = E5AAAAFF65923696A97CD707D88D7212 /* UAObfuscatedString.framework */;
+			productReference = 78CCC689C52B58544AAA5A7D28828980 /* Xross.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */ = {
@@ -944,7 +841,7 @@
 			);
 			name = libextobjc;
 			productName = libextobjc;
-			productReference = 08F275E69894206709995EA97A98EE98 /* libextobjc.framework */;
+			productReference = 033C1B203183971B0E87DD9AB4E4782A /* libextobjc.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		69B9C817E67B13D9361899270ECF4580 /* Pods-Xross_Tests */ = {
@@ -961,7 +858,29 @@
 			);
 			name = "Pods-Xross_Tests";
 			productName = "Pods-Xross_Tests";
-			productReference = 3712F1E4F490F9B0A4FEF47553B4AE3E /* Pods_Xross_Tests.framework */;
+			productReference = 024F27180B5A3A8AF9D9914D8A19C4FE /* Pods_Xross_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D385FAB222F4335DECABEB5407C81F8 /* Pods-Xross_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DC9646C80FD28C240832077FF3F526 /* Build configuration list for PBXNativeTarget "Pods-Xross_Example" */;
+			buildPhases = (
+				C4AB27B70909F3C0A51C824B63A66364 /* Sources */,
+				187D6BBD2A1B0F87CB5C554DF5AE75A4 /* Frameworks */,
+				D6CA0B0F401C3DA3FC4BF9D9AEE1A98D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A62B75F1EA2B6C01A4ECF560EE350D7 /* PBXTargetDependency */,
+				62E2CFA15252C24C3EB5D8478D804E32 /* PBXTargetDependency */,
+				8CC5731A85C96BAB1659E5198369F481 /* PBXTargetDependency */,
+				1795F14D3FA4B76D1E6EC7D4D938A185 /* PBXTargetDependency */,
+				E7E27261931FC1379B777E0B66491D17 /* PBXTargetDependency */,
+			);
+			name = "Pods-Xross_Example";
+			productName = "Pods-Xross_Example";
+			productReference = E3C15388ACDC89EEE48F9798C2F89E42 /* Pods_Xross_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EC988BEA5C83215D1E4F4E85263D2CE6 /* NCController */ = {
@@ -978,7 +897,7 @@
 			);
 			name = NCController;
 			productName = NCController;
-			productReference = 78617BB9462C6EA05CE9DA329ADAB62D /* NCController.framework */;
+			productReference = D9CAF0A9D5149C0143CEBD98672571C6 /* NCController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */ = {
@@ -995,30 +914,7 @@
 			);
 			name = KVOController;
 			productName = KVOController;
-			productReference = 2DC7966EFF089A7132513E8D7AB17565 /* KVOController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F3A106A31CE559199602F171E60F1056 /* Pods-Xross_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A105470D0F1D7F9A4931E16EC0DD51D5 /* Build configuration list for PBXNativeTarget "Pods-Xross_Example" */;
-			buildPhases = (
-				441A76AF7312BAB715618AF0F3F94A8A /* Sources */,
-				BCAFF8DFE9D9E680610D24B080E96A83 /* Frameworks */,
-				6D785031218F32FF46ACD8476A89FA12 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D44535B111D2956E91BAEB8F1A884D54 /* PBXTargetDependency */,
-				14B842D617CD3BC02A531C1F97B62A4A /* PBXTargetDependency */,
-				3B751144AA4190A06181469422ABCCFA /* PBXTargetDependency */,
-				190192846D8B352A67EBA8E06B6BFFAD /* PBXTargetDependency */,
-				BBB1392848E5B65D67529821009349A1 /* PBXTargetDependency */,
-				CA335F7A838E6B639D7EA7D9CF40F055 /* PBXTargetDependency */,
-			);
-			name = "Pods-Xross_Example";
-			productName = "Pods-Xross_Example";
-			productReference = 82D9CA9610028B982CE1DC8AC08CD54C /* Pods_Xross_Example.framework */;
+			productReference = 27354C8AB28365C64B9484F8155E12AE /* KVOController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F5E7B86C60FCB91858074F7C2F733BE5 /* JRSwizzle */ = {
@@ -1035,7 +931,7 @@
 			);
 			name = JRSwizzle;
 			productName = JRSwizzle;
-			productReference = 6A1C74BD54D5B2B4D673F7DB9D636818 /* JRSwizzle.framework */;
+			productReference = 4168C77A04B8706F99F986978A2E993A /* JRSwizzle.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1055,7 +951,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BE34618850BAE95FD7CC73C854052B86 /* Products */;
+			productRefGroup = 903BF090A1095FA163FD466271CAA546 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1063,10 +959,9 @@
 				F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */,
 				4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */,
 				EC988BEA5C83215D1E4F4E85263D2CE6 /* NCController */,
-				F3A106A31CE559199602F171E60F1056 /* Pods-Xross_Example */,
+				7D385FAB222F4335DECABEB5407C81F8 /* Pods-Xross_Example */,
 				69B9C817E67B13D9361899270ECF4580 /* Pods-Xross_Tests */,
-				3B1F3C918078CBDC87B92B0035B99B68 /* UAObfuscatedString */,
-				22F71A59D58B82942C1380C0347D6A59 /* Xross */,
+				32FE0BEEFD5370F9B1FDC022CA2E8C38 /* Xross */,
 			);
 		};
 /* End PBXProject section */
@@ -1089,11 +984,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		441A76AF7312BAB715618AF0F3F94A8A /* Sources */ = {
+		44E0CA5F6825A2A64ECB35C53734BD59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BD2C44319E9AEB0C466CB5D74B76D47 /* Pods-Xross_Example-dummy.m in Sources */,
+				22634300DA51E5FD23557465E6B8E3F7 /* MLWXrossScrollView.m in Sources */,
+				466FA774CCFB3A5CC090FB85D7A14DED /* MLWXrossTransition.m in Sources */,
+				B24EFF2FD94E16A97BF1375F3EC073EA /* MLWXrossTransitionCube.m in Sources */,
+				EC942131F81FECA319D1A13E8C43DF75 /* MLWXrossTransitionFade.m in Sources */,
+				DA49F75C2C7A706A5C6C02F2B82F7B2A /* MLWXrossTransitionStack.m in Sources */,
+				F3BC8A8B832ACC912CD42831A8CB2B56 /* MLWXrossViewController.m in Sources */,
+				DA654E8AF0231AC32856C4B404F24E0D /* UIResponder+MLWCurrentFirstResponder.m in Sources */,
+				FD724C08FCAF8F1B2642CA9C38174759 /* UIScrollView+MLWNotScrollSuperview.m in Sources */,
+				FEEEBD8506317E5EC050F7A32A010390 /* UIScrollView+MLWStickyKeyboard.m in Sources */,
+				38F381AEC7181E1A90F3341906CF868C /* Xross-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1124,12 +1028,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD5537F4C9F238A7747601AA9A5F1DD3 /* Sources */ = {
+		C4AB27B70909F3C0A51C824B63A66364 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA1455B42FC47CA65D148D7C1250AB7 /* UAObfuscatedString-dummy.m in Sources */,
-				D376990E718F654B4079AFF93410342B /* UAObfuscatedString.m in Sources */,
+				D5631969FD165C8236781A47B0DE12FE /* Pods-Xross_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1143,98 +1046,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE69A2D29B22CDDAEDACA745C9A961C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3B4FAFC82DC807416A59EEC58DFF39B /* MLWXrossScrollView.m in Sources */,
-				1F905A737881B614B0870B22FBA1C6EF /* MLWXrossTransition.m in Sources */,
-				8D6C9E09FCCD2901D878A1B9FD2C0A84 /* MLWXrossTransitionCube.m in Sources */,
-				0ADEE4F0A292FADF5978AB8149291D01 /* MLWXrossTransitionFade.m in Sources */,
-				D9C5F7423BA0D59A024F81DC07E99053 /* MLWXrossTransitionStack.m in Sources */,
-				852B4A7FA28C181035698FF8281F3B86 /* MLWXrossViewController.m in Sources */,
-				F4D2816AA90B4F7136A6E6F0703083DB /* UIResponder+MLWCurrentFirstResponder.m in Sources */,
-				BBEC6D683539653F1DB71E7535E3DA51 /* UIScrollView+MLWNotScrollSuperview.m in Sources */,
-				02F74810F583B8EFB65DC50C2A91BE9C /* UIScrollView+MLWStickyKeyboard.m in Sources */,
-				DF387A5754C07F2F17181D81C9D4DE1E /* Xross-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BED38D4840E121AAD6C7DF4BD57489C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libextobjc;
-			target = 4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */;
-			targetProxy = 4716C37D4A72D7A85B94D8B571BB0D1E /* PBXContainerItemProxy */;
-		};
-		14B842D617CD3BC02A531C1F97B62A4A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KVOController;
-			target = F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */;
-			targetProxy = C12BA42CF50FAD40B37FDB5439DBE0EA /* PBXContainerItemProxy */;
-		};
-		190192846D8B352A67EBA8E06B6BFFAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UAObfuscatedString;
-			target = 3B1F3C918078CBDC87B92B0035B99B68 /* UAObfuscatedString */;
-			targetProxy = 5A8BD885D035963F23E0C021CE5CB623 /* PBXContainerItemProxy */;
-		};
-		3B751144AA4190A06181469422ABCCFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = NCController;
-			target = EC988BEA5C83215D1E4F4E85263D2CE6 /* NCController */;
-			targetProxy = 54981EC45F2282218B06ED1F93169875 /* PBXContainerItemProxy */;
-		};
-		3ED94212BCF18E0697B487CE0640B433 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UAObfuscatedString;
-			target = 3B1F3C918078CBDC87B92B0035B99B68 /* UAObfuscatedString */;
-			targetProxy = 71DA6A1FCC98436948FCC945C1DA3829 /* PBXContainerItemProxy */;
-		};
-		536CD7FC133D5D2876A8653E0635857A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JRSwizzle;
-			target = F5E7B86C60FCB91858074F7C2F733BE5 /* JRSwizzle */;
-			targetProxy = 33323204D291CFA208E53D007F6FB01B /* PBXContainerItemProxy */;
-		};
-		8F9C3698F9E6FDFF6E97C315CEE90D07 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KVOController;
-			target = F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */;
-			targetProxy = 6B7660293C4FFAC0E79AEDC897403AF0 /* PBXContainerItemProxy */;
-		};
-		BBB1392848E5B65D67529821009349A1 /* PBXTargetDependency */ = {
+		1795F14D3FA4B76D1E6EC7D4D938A185 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Xross;
-			target = 22F71A59D58B82942C1380C0347D6A59 /* Xross */;
-			targetProxy = EDE44F7AE89CB6A373281A015F3FD94F /* PBXContainerItemProxy */;
+			target = 32FE0BEEFD5370F9B1FDC022CA2E8C38 /* Xross */;
+			targetProxy = EEC9648100B204C953F2B4F5D8115594 /* PBXContainerItemProxy */;
 		};
-		CA335F7A838E6B639D7EA7D9CF40F055 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = libextobjc;
-			target = 4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */;
-			targetProxy = 3606FFF0D4C8620D97344ED2142C2FDA /* PBXContainerItemProxy */;
-		};
-		D44535B111D2956E91BAEB8F1A884D54 /* PBXTargetDependency */ = {
+		1A62B75F1EA2B6C01A4ECF560EE350D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JRSwizzle;
 			target = F5E7B86C60FCB91858074F7C2F733BE5 /* JRSwizzle */;
-			targetProxy = 4F48217CBA72311C710962B338579B57 /* PBXContainerItemProxy */;
+			targetProxy = 8A8F1DC2BD4ED71AE849CA3A8D127D2A /* PBXContainerItemProxy */;
 		};
-		DF75DA2CBDCF970B8E80835E53855CD6 /* PBXTargetDependency */ = {
+		3AC8B59800A8FE71D03704357CB4DF74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NCController;
 			target = EC988BEA5C83215D1E4F4E85263D2CE6 /* NCController */;
-			targetProxy = 503F6C8186A92A0A0FAB165D59A4A23E /* PBXContainerItemProxy */;
+			targetProxy = BFBD39EB83A6C5ABD58C74F625759073 /* PBXContainerItemProxy */;
+		};
+		62E2CFA15252C24C3EB5D8478D804E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */;
+			targetProxy = 35D0FE4B0A02F2FCB6012B9D078F0055 /* PBXContainerItemProxy */;
+		};
+		70FAE2129FA5FD79FFBF20D344781573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libextobjc;
+			target = 4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */;
+			targetProxy = A599D89239CCCB8544B450AC6D7123BF /* PBXContainerItemProxy */;
+		};
+		8CC5731A85C96BAB1659E5198369F481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NCController;
+			target = EC988BEA5C83215D1E4F4E85263D2CE6 /* NCController */;
+			targetProxy = 55AB0DD9C026F50DF26ADEACFDE630E6 /* PBXContainerItemProxy */;
+		};
+		B677124D03791E360DBB8090809BA264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = F5E7B86C60FCB91858074F7C2F733BE5 /* JRSwizzle */;
+			targetProxy = 7C2228245CD71401AC04358FC9B5FD1E /* PBXContainerItemProxy */;
+		};
+		BB518952A7EFD6366B77393D3E54BCDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */;
+			targetProxy = B01C3B2672DF599A940DE47546B418B3 /* PBXContainerItemProxy */;
+		};
+		E7E27261931FC1379B777E0B66491D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libextobjc;
+			target = 4EE053CAA134CA7A6FA356E4059CAD1A /* libextobjc */;
+			targetProxy = 7A59F38C32468376070CAB23C1EA0A85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07AD126872C0AD652ECC65AE5128451C /* Debug */ = {
+		09409897AE9A80BB1875C015EC374ECC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B2EC6FFBAC7CB1E8417B1F8AF4BB56D /* UAObfuscatedString.xcconfig */;
+			baseConfigurationReference = 5CED7D2E58EA5A9DB2185E6118B8EA12 /* libextobjc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1248,21 +1122,104 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UAObfuscatedString/UAObfuscatedString-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UAObfuscatedString/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/libextobjc/libextobjc-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libextobjc/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UAObfuscatedString/UAObfuscatedString.modulemap";
+				MODULEMAP_FILE = "Target Support Files/libextobjc/libextobjc.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = UAObfuscatedString;
+				PRODUCT_NAME = libextobjc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3184800F5117F3DDC4814B7D8D26FB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2EC1C94079FEA41C8EEBB3928C51D8 /* KVOController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1308,73 +1265,75 @@
 			};
 			name = Release;
 		};
-		4F90DD9C08B549393F4DA13D6835FC0B /* Debug */ = {
+		43AB4B159106882B4811A554DEAA4357 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01FBDDA711B89F1510297EFB5CEAEA8B /* KVOController.xcconfig */;
+			baseConfigurationReference = A9E2861A407C2BD7F222BC89A77B737D /* Xross.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Xross/Xross-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Xross/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KVOController;
+				MODULEMAP_FILE = "Target Support Files/Xross/Xross.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Xross;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5A8DB9CFC8C29D000A509579F76A4874 /* Debug */ = {
+		6FAF0EDD4B94D2A8AFA7492285ECA305 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F7F19F957D52B05127584CB0B52188C /* libextobjc.xcconfig */;
+			baseConfigurationReference = E870A63590E96A31360B51C9EDD29BDE /* JRSwizzle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/libextobjc/libextobjc-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libextobjc/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libextobjc/libextobjc.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = libextobjc;
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JRSwizzle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		61AAE38A17C0097322F0CDB4E2D1C052 /* Release */ = {
+		76167EE011F503CB0E02DA0661DDBC86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F7F19F957D52B05127584CB0B52188C /* libextobjc.xcconfig */;
+			baseConfigurationReference = 5CED7D2E58EA5A9DB2185E6118B8EA12 /* libextobjc.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1398,75 +1357,12 @@
 				PRODUCT_NAME = libextobjc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6449148D9F4C4232F2C56A1813599E6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A38D14DC106FCBA88EBCBCF9B0A67DC /* NCController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NCController/NCController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NCController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NCController/NCController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NCController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		68D956506E9C8D4D7204A298C8CCFD64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14FEF028EE845D8122D58AEF840B7C59 /* JRSwizzle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JRSwizzle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7AC419B1D32462B93A5AC6943081144C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1504,41 +1400,9 @@
 			};
 			name = Release;
 		};
-		7E798A50BF0CD3A50B9F0602542B58A1 /* Debug */ = {
+		97B96EE71F291DE8765EC49268935DCC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E57FBDC9D50E78144868E81D2D3E2138 /* Xross.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Xross/Xross-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Xross/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Xross/Xross.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Xross;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8E525746FAB351A8C181A8EC4C7F9853 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002482B3E5E8199D4A3D9ECCD6F88BE1 /* Pods-Xross_Example.release.xcconfig */;
+			baseConfigurationReference = 7A2BE94AA9B3F0BC126C6375E5A6ACF5 /* NCController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1552,52 +1416,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Xross_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NCController/NCController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Xross_Example/Pods-Xross_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/NCController/NCController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Xross_Example;
+				PRODUCT_NAME = NCController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AFBE0EE169D5ECB2FC6D81B1A2D7A71B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14FEF028EE845D8122D58AEF840B7C59 /* JRSwizzle.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JRSwizzle;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1640,57 +1469,9 @@
 			};
 			name = Debug;
 		};
-		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+		D2BB22EBB4BBB2450C9DA20337BC9273 /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		C93BD3005C7D8E375491BBD5F9A3699A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A38D14DC106FCBA88EBCBCF9B0A67DC /* NCController.xcconfig */;
+			baseConfigurationReference = 002482B3E5E8199D4A3D9ECCD6F88BE1 /* Pods-Xross_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1704,14 +1485,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NCController/NCController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NCController/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Xross_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NCController/NCController.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Xross_Example/Pods-Xross_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NCController;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Xross_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1720,48 +1505,16 @@
 			};
 			name = Release;
 		};
-		D6D5B196AA2D8184F488CE8D0E3B1DBF /* Release */ = {
+		D34F158063FAA562382755E073150774 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B2EC6FFBAC7CB1E8417B1F8AF4BB56D /* UAObfuscatedString.xcconfig */;
+			baseConfigurationReference = 8F2EC1C94079FEA41C8EEBB3928C51D8 /* KVOController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UAObfuscatedString/UAObfuscatedString-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UAObfuscatedString/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UAObfuscatedString/UAObfuscatedString.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = UAObfuscatedString;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E4C5685B3FF2D64A6331C390A5E33A59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01FBDDA711B89F1510297EFB5CEAEA8B /* KVOController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1774,17 +1527,84 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = KVOController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		ECC7CF688A5D0DC2B545E69BE72D3768 /* Debug */ = {
+		DF104BE78F6E53C4F8093D726B9ADFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2BE94AA9B3F0BC126C6375E5A6ACF5 /* NCController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NCController/NCController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NCController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NCController/NCController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NCController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F58D52D23EBB3636484694EDB30BAF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E2861A407C2BD7F222BC89A77B737D /* Xross.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Xross/Xross-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Xross/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Xross/Xross.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Xross;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F818B93F7604F215B4CEA2B46A7F2A03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D667E7F4814002427CB952B7DCD8E62 /* Pods-Xross_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1820,37 +1640,38 @@
 			};
 			name = Debug;
 		};
-		F8A0E7EDA398778D2E3267EFDD6FE6F3 /* Release */ = {
+		F85B25972925F56E7A070553F2CB5C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E57FBDC9D50E78144868E81D2D3E2138 /* Xross.xcconfig */;
+			baseConfigurationReference = E870A63590E96A31360B51C9EDD29BDE /* JRSwizzle.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Xross/Xross-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Xross/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Xross/Xross.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Xross;
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JRSwizzle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1858,17 +1679,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
 				34FE9531DA9AF2820790339988D5FF41 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		43CC25663E6CC1B0743D257BCD95DE38 /* Build configuration list for PBXNativeTarget "UAObfuscatedString" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				07AD126872C0AD652ECC65AE5128451C /* Debug */,
-				D6D5B196AA2D8184F488CE8D0E3B1DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1882,29 +1694,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FAF2BE54715FD13EC6EEC401ED73441 /* Build configuration list for PBXNativeTarget "Xross" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E798A50BF0CD3A50B9F0602542B58A1 /* Debug */,
-				F8A0E7EDA398778D2E3267EFDD6FE6F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7D239588A628DAA5DE381EEE3FBB7480 /* Build configuration list for PBXNativeTarget "NCController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6449148D9F4C4232F2C56A1813599E6E /* Debug */,
-				C93BD3005C7D8E375491BBD5F9A3699A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A105470D0F1D7F9A4931E16EC0DD51D5 /* Build configuration list for PBXNativeTarget "Pods-Xross_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ECC7CF688A5D0DC2B545E69BE72D3768 /* Debug */,
-				8E525746FAB351A8C181A8EC4C7F9853 /* Release */,
+				DF104BE78F6E53C4F8093D726B9ADFD6 /* Debug */,
+				97B96EE71F291DE8765EC49268935DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1912,8 +1706,8 @@
 		A7251BAC6B1EC4B3F76705D59504D5F1 /* Build configuration list for PBXNativeTarget "libextobjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A8DB9CFC8C29D000A509579F76A4874 /* Debug */,
-				61AAE38A17C0097322F0CDB4E2D1C052 /* Release */,
+				09409897AE9A80BB1875C015EC374ECC /* Debug */,
+				76167EE011F503CB0E02DA0661DDBC86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1921,8 +1715,26 @@
 		C22E59EB39161F1F43C742A0638E1306 /* Build configuration list for PBXNativeTarget "KVOController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F90DD9C08B549393F4DA13D6835FC0B /* Debug */,
-				E4C5685B3FF2D64A6331C390A5E33A59 /* Release */,
+				D34F158063FAA562382755E073150774 /* Debug */,
+				3184800F5117F3DDC4814B7D8D26FB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4DC9646C80FD28C240832077FF3F526 /* Build configuration list for PBXNativeTarget "Pods-Xross_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F818B93F7604F215B4CEA2B46A7F2A03 /* Debug */,
+				D2BB22EBB4BBB2450C9DA20337BC9273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D56DA34E73CB04DC6F33FEE5B8B992D3 /* Build configuration list for PBXNativeTarget "Xross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58D52D23EBB3636484694EDB30BAF4A /* Debug */,
+				43AB4B159106882B4811A554DEAA4357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1930,8 +1742,8 @@
 		FFB7E4A191A2188BE7C8E30FE682DB2E /* Build configuration list for PBXNativeTarget "JRSwizzle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68D956506E9C8D4D7204A298C8CCFD64 /* Debug */,
-				AFBE0EE169D5ECB2FC6D81B1A2D7A71B /* Release */,
+				F85B25972925F56E7A070553F2CB5C48 /* Debug */,
+				6FAF0EDD4B94D2A8AFA7492285ECA305 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

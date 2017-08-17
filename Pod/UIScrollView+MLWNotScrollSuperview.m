@@ -7,13 +7,57 @@
 //
 
 #import <JRSwizzle/JRSwizzle.h>
-#import <UAObfuscatedString/UAObfuscatedString.h>
 #import <libextobjc/extobjc.h>
 
 #import "UIScrollView+MLWNotScrollSuperview.h"
 
 static NSString *selectorOfInterest() {
-    return NSMutableString.string.underscore.a.t.t.e.m.p.t.T.o.D.r.a.g.P.a.r.e.n.t.colon.f.o.r.N.e.w.B.o.u.n.d.s.colon.o.l.d.B.o.u.n.d.s.colon;
+    NSString *result = [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[@"_" stringByAppendingString:@"a"]
+                                                                 stringByAppendingString:@"t"]
+                                                                stringByAppendingString:@"t"]
+                                                               stringByAppendingString:@"e"]
+                                                              stringByAppendingString:@"m"]
+                                                             stringByAppendingString:@"p"]
+                                                            stringByAppendingString:@"t"]
+                                                           stringByAppendingString:@"T"]
+                                                          stringByAppendingString:@"o"]
+                                                         stringByAppendingString:@"D"]
+                                                        stringByAppendingString:@"r"]
+                                                       stringByAppendingString:@"a"]
+                                                      stringByAppendingString:@"g"]
+                                                     stringByAppendingString:@"P"]
+                                                    stringByAppendingString:@"a"]
+                                                   stringByAppendingString:@"r"]
+                                                  stringByAppendingString:@"e"]
+                                                 stringByAppendingString:@"n"]
+                                                stringByAppendingString:@"t"]
+                                               stringByAppendingString:@":"]
+                                              stringByAppendingString:@"f"]
+                                             stringByAppendingString:@"o"]
+                                            stringByAppendingString:@"r"]
+                                           stringByAppendingString:@"N"]
+                                          stringByAppendingString:@"e"]
+                                         stringByAppendingString:@"w"]
+                                        stringByAppendingString:@"B"]
+                                       stringByAppendingString:@"o"]
+                                      stringByAppendingString:@"u"]
+                                     stringByAppendingString:@"n"]
+                                    stringByAppendingString:@"d"]
+                                   stringByAppendingString:@"s"]
+                                  stringByAppendingString:@":"]
+                                 stringByAppendingString:@"o"]
+                                stringByAppendingString:@"l"]
+                               stringByAppendingString:@"d"]
+                              stringByAppendingString:@"B"]
+                             stringByAppendingString:@"o"]
+                            stringByAppendingString:@"u"]
+                           stringByAppendingString:@"n"]
+                          stringByAppendingString:@"d"]
+                         stringByAppendingString:@"s"]
+                        stringByAppendingString:@":"];
+    
+    NSCAssert([result isEqualToString:@"_attemptToDragParent:forNewBounds:oldBounds:"], @"");
+    return result;
 }
 
 //

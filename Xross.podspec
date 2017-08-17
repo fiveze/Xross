@@ -20,5 +20,4 @@ Pod::Spec.new do |s|
   s.dependency 'libextobjc'
   s.dependency 'KVOController'
   s.dependency 'NCController'
-  s.dependency 'UAObfuscatedString'
 end

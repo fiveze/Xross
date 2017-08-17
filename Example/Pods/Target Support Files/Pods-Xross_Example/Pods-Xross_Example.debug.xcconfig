@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle" "$PODS_CONFIGURATION_BUILD_DIR/KVOController" "$PODS_CONFIGURATION_BUILD_DIR/NCController" "$PODS_CONFIGURATION_BUILD_DIR/UAObfuscatedString" "$PODS_CONFIGURATION_BUILD_DIR/Xross" "$PODS_CONFIGURATION_BUILD_DIR/libextobjc"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle" "$PODS_CONFIGURATION_BUILD_DIR/KVOController" "$PODS_CONFIGURATION_BUILD_DIR/NCController" "$PODS_CONFIGURATION_BUILD_DIR/Xross" "$PODS_CONFIGURATION_BUILD_DIR/libextobjc"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle/JRSwizzle.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KVOController/KVOController.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NCController/NCController.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/UAObfuscatedString/UAObfuscatedString.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Xross/Xross.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/libextobjc/libextobjc.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "JRSwizzle" -framework "KVOController" -framework "NCController" -framework "UAObfuscatedString" -framework "Xross" -framework "libextobjc"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/JRSwizzle/JRSwizzle.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KVOController/KVOController.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/NCController/NCController.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Xross/Xross.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/libextobjc/libextobjc.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "JRSwizzle" -framework "KVOController" -framework "NCController" -framework "Xross" -framework "libextobjc"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
