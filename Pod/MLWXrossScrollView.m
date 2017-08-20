@@ -10,7 +10,6 @@
 
 #import <JRSwizzle/JRSwizzle.h>
 #import <libextobjc/extobjc.h>
-#import <UAObfuscatedString/UAObfuscatedString.h>
 
 #import "UIResponder+MLWCurrentFirstResponder.h"
 #import "UIScrollView+MLWNotScrollSuperview.h"

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Xross"
-  s.version          = "0.13.2"
+  s.version          = "0.13.3"
   s.summary          = "All-directions-enabled UIPageViewController"
 
   s.homepage         = "https://github.com/ML-Works/Xross"
@@ -20,5 +20,4 @@ Pod::Spec.new do |s|
   s.dependency 'libextobjc'
   s.dependency 'KVOController'
   s.dependency 'NCController'
-  s.dependency 'UAObfuscatedString'
 end

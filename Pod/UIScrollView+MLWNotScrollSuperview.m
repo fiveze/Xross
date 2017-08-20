@@ -7,13 +7,15 @@
 //
 
 #import <JRSwizzle/JRSwizzle.h>
-#import <UAObfuscatedString/UAObfuscatedString.h>
 #import <libextobjc/extobjc.h>
 
 #import "UIScrollView+MLWNotScrollSuperview.h"
 
 static NSString *selectorOfInterest() {
-    return NSMutableString.string.underscore.a.t.t.e.m.p.t.T.o.D.r.a.g.P.a.r.e.n.t.colon.f.o.r.N.e.w.B.o.u.n.d.s.colon.o.l.d.B.o.u.n.d.s.colon;
+    NSString *result = [@[@"_", @"a", @"t", @"t", @"e", @"m", @"p", @"t", @"T", @"o", @"D", @"r", @"a", @"g", @"P", @"a", @"r", @"e", @"n", @"t", @":", @"f", @"o", @"r", @"N", @"e", @"w", @"B", @"o", @"u", @"n", @"d", @"s", @":", @"o", @"l", @"d", @"B", @"o", @"u", @"n", @"d", @"s", @":"] componentsJoinedByString:@""];
+    
+    NSCAssert([result isEqualToString:@"_attemptToDragParent:forNewBounds:oldBounds:"], @"");
+    return result;
 }
 
 //

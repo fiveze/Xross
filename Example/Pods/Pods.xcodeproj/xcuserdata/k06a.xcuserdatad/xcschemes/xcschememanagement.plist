@@ -29,11 +29,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>UAObfuscatedString.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Xross.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +42,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>22F71A59D58B82942C1380C0347D6A59</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>3B1F3C918078CBDC87B92B0035B99B68</key>
+		<key>32FE0BEEFD5370F9B1FDC022CA2E8C38</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,17 +57,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>7D385FAB222F4335DECABEB5407C81F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>EC988BEA5C83215D1E4F4E85263D2CE6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F1BB2FCBCF83B5DDB315512A21BC40B8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F3A106A31CE559199602F171E60F1056</key>
 		<dict>
 			<key>primary</key>
 			<true/>
