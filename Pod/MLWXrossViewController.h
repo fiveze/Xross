@@ -68,7 +68,7 @@ MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transi
 - (void)xross:(MLWXrossViewController *)xross removedViewController:(UIViewController *)viewController;
 - (void)xross:(MLWXrossViewController *)xross didScrollToDirection:(MLWXrossDirection)direction progress:(CGFloat)progress;
 - (BOOL)xross:(MLWXrossViewController *)xross shouldApplyInsetToDirection:(MLWXrossDirection)direction progress:(CGFloat)progress;
-- (MLWXrossTransition *)xross:(MLWXrossViewController *)xross transitionToDirection:(MLWXrossDirection)direction;
+- (nullable MLWXrossTransition *)xross:(MLWXrossViewController *)xross transitionToDirection:(MLWXrossDirection)direction;
 - (MLWTransitionType)xross:(MLWXrossViewController *)xross transitionTypeToDirection:(MLWXrossDirection)direction;
 
 @end
