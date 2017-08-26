@@ -48,6 +48,8 @@ BOOL MLWXrossDirectionIsHorizontal(MLWXrossDirection direction);
 BOOL MLWXrossDirectionIsVertical(MLWXrossDirection direction);
 BOOL MLWXrossDirectionEquals(MLWXrossDirection direction, MLWXrossDirection direction2);
 
+MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transitionType, UIView *currentView, UIView *nextView, MLWXrossDirection direction);
+
 // Data Source
 
 @protocol MLWXrossViewControllerDataSource <NSObject>

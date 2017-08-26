@@ -28,11 +28,15 @@
 }
 
 - (void)finishTransition {
+    self.currentView.transform = CGAffineTransformIdentity;
+    self.nextView.transform = CGAffineTransformIdentity;
     self.currentView.layer.shouldRasterize = NO;
     self.nextView.layer.shouldRasterize = NO;
 }
 
 - (void)updateForProgress:(CGFloat)progress {
+    self.currentView.transform = CGAffineTransformMakeTranslation(-progress * self.direction.x * self.spacing, -progress * self.direction.y * self.spacing);
+    self.nextView.transform = CGAffineTransformMakeTranslation((1.0 - progress) * self.direction.x * self.spacing, (1.0 - progress) * self.direction.y * self.spacing);
 }
 
 @end
