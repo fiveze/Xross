@@ -136,7 +136,7 @@
 
 #pragma mark - Xross
 
-- (nullable UIViewController *)xross:(MLWXrossViewController *)xrossViewController viewControllerForDirection:(MLWXrossDirection)direction {
+- (nullable UIViewController *)xross:(MLWXrossViewController *)xross viewControllerForDirection:(MLWXrossDirection)direction {
     NSLog(@"%s (%@,%@)", __PRETTY_FUNCTION__, @(direction.x), @(direction.y));
     
     BOOL samePosition = MLWXrossDirectionIsNone(direction);
@@ -161,7 +161,7 @@
     return nil;
 }
 
-- (MLWTransitionType)xross:(MLWXrossViewController *)xrossViewController transitionTypeToDirection:(MLWXrossDirection)direction {
+- (MLWTransitionType)xross:(MLWXrossViewController *)xross transitionTypeToDirection:(MLWXrossDirection)direction {
     NSLog(@"%s (%@,%@)", __PRETTY_FUNCTION__, @(direction.x), @(direction.y));
     
     NSArray<NSNumber *> *dict = @[
@@ -195,27 +195,27 @@
     return type;
 }
 
-- (BOOL)xross:(MLWXrossViewController *)xrossViewController shouldBounceToDirection:(MLWXrossDirection)direction {
+- (BOOL)xross:(MLWXrossViewController *)xross shouldBounceToDirection:(MLWXrossDirection)direction {
     NSLog(@"%s (%@,%@)", __PRETTY_FUNCTION__, @(direction.x), @(direction.y));
     return self.bounceSwitch.on;
 }
 
-- (void)xross:(MLWXrossViewController *)xrossViewController didMoveToDirection:(MLWXrossDirection)direction {
+- (void)xross:(MLWXrossViewController *)xross didMoveToDirection:(MLWXrossDirection)direction {
     NSLog(@"%s (%@,%@)", __PRETTY_FUNCTION__, @(direction.x), @(direction.y));
     self.position = CGPointMake(self.position.x + direction.x,
                                 self.position.y + direction.y);
 }
 
-- (void)xross:(MLWXrossViewController *)xrossViewController removedViewController:(UIViewController *)viewController {
+- (void)xross:(MLWXrossViewController *)xross removedViewController:(UIViewController *)viewController {
     NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 
-- (BOOL)xross:(MLWXrossViewController *)xrossViewController shouldApplyInsetToDirection:(MLWXrossDirection)direction progress:(CGFloat)progress {
+- (BOOL)xross:(MLWXrossViewController *)xross shouldApplyInsetToDirection:(MLWXrossDirection)direction progress:(CGFloat)progress {
     NSLog(@"%s (%@,%@) %.4f%%", __PRETTY_FUNCTION__, @(direction.x), @(direction.y), progress*100);
     return YES;
 }
 
-- (void)xross:(MLWXrossViewController *)xrossViewController didScrollToDirection:(MLWXrossDirection)direction progress:(CGFloat)progress {
+- (void)xross:(MLWXrossViewController *)xross didScrollToDirection:(MLWXrossDirection)direction progress:(CGFloat)progress {
     NSLog(@"%s (%@,%@) %.4f%%", __PRETTY_FUNCTION__, @(direction.x), @(direction.y), progress*100);
 }
 
