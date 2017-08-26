@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
                            nextView:(UIView *)nextView
                           direction:(MLWXrossDirection)direction;
 
-- (void)updateForProgress:(CGFloat)progress NS_REQUIRES_SUPER;
+- (void)updateForProgress:(CGFloat)progress;
 - (void)finishTransition NS_REQUIRES_SUPER;
 
 @end
