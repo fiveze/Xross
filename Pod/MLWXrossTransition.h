@@ -12,9 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MLWXrossTransition : NSObject
 
-@property (weak, nonatomic) UIView *currentView;
-@property (weak, nonatomic) UIView *nextView;
-@property (assign, nonatomic) MLWXrossDirection direction;
+@property (readonly, weak, nonatomic) UIView *currentView;
+@property (readonly, weak, nonatomic) UIView *nextView;
+@property (readonly, assign, nonatomic) MLWXrossDirection direction;
+
+@property (assign, nonatomic) CGFloat spacing; // Default 0
 
 + (instancetype)new NS_UNAVAILABLE;
 - (instancetype)init NS_UNAVAILABLE;

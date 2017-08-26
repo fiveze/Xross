@@ -55,10 +55,10 @@ BOOL MLWXrossDirectionEquals(MLWXrossDirection direction, MLWXrossDirection dire
 
 //
 
-static MLWXrossTransition *TransitionForTransitionType(MLWTransitionType transitionType, UIView *currentView, UIView *nextView, MLWXrossDirection direction) {
+MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transitionType, UIView *currentView, UIView *nextView, MLWXrossDirection direction) {
     switch (transitionType) {
         case MLWTransitionTypeDefault: {
-            return nil;
+            return [[MLWXrossTransition alloc] initWithCurrentView:currentView nextView:nextView direction:direction];
         }
         case MLWTransitionTypeCube: {
             return [[MLWXrossTransitionCube alloc] initWithCurrentView:currentView nextView:nextView direction:direction];
@@ -541,7 +541,7 @@ static MLWXrossTransition *TransitionForTransitionType(MLWTransitionType transit
         self.transition = [self.delegate xross:self transitionToDirection:direction];
     }
     else if ([self.delegate respondsToSelector:@selector(xross:transitionTypeToDirection:)]) {
-        self.transition = TransitionForTransitionType([self.delegate xross:self transitionTypeToDirection:direction], self.viewController.view, self.nextViewController.view, direction);
+        self.transition = MLWXrossTransitionForTransitionType([self.delegate xross:self transitionTypeToDirection:direction], self.viewController.view, self.nextViewController.view, direction);
     }
     
     [self.viewController beginAppearanceTransition:NO animated:YES];
@@ -606,7 +606,7 @@ static MLWXrossTransition *TransitionForTransitionType(MLWTransitionType transit
                     self.transition = [self.delegate xross:self transitionToDirection:direction];
                 }
                 else if ([self.delegate respondsToSelector:@selector(xross:transitionTypeToDirection:)]) {
-                    self.transition = TransitionForTransitionType([self.delegate xross:self transitionTypeToDirection:direction], self.viewController.view, self.nextViewController.view, direction);
+                    self.transition = MLWXrossTransitionForTransitionType([self.delegate xross:self transitionTypeToDirection:direction], self.viewController.view, self.nextViewController.view, direction);
                 }
                 self.view.bounces = YES;
             }
