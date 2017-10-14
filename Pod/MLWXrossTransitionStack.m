@@ -129,6 +129,7 @@ static void ApplyTransitionStack(BOOL rotationToNext, CGFloat minScaleAchievedBy
 
 - (void)updateForProgress:(CGFloat)progress {
     ApplyTransitionStack(self.stackType == MLWXrossTransitionTypeStackPop, self.minScaleAchievedByDistance, self.maxSwingAngle, self.minShadowAlpha, self.currentView.layer, self.nextView.layer, self.shadowLayer, self.direction, progress);
+    [super updateForProgress:progress];
 }
 
 @end

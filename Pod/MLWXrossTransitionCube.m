@@ -84,6 +84,7 @@ static void ApplyTransition3DCubeFromTo(BOOL from, BOOL to, CGFloat maxAngle, CG
 
 - (void)updateForProgress:(CGFloat)progress {
     ApplyTransition3DCubeFromTo(self.applyToCurrent, self.applyToNext, self.maxAngle, self.minShadowAlpha, self.currentView.layer, self.nextView.layer, self.shadowLayer, self.direction, progress);
+    [super updateForProgress:progress];
 }
 
 @end

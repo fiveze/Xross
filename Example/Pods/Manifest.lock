@@ -37,7 +37,7 @@ PODS:
   - libextobjc/RuntimeExtensions (0.4.1)
   - libextobjc/UmbrellaHeader (0.4.1)
   - NCController (0.2.1)
-  - Xross (0.14.0):
+  - Xross (0.15.0):
     - JRSwizzle
     - KVOController
     - libextobjc
@@ -55,7 +55,7 @@ SPEC CHECKSUMS:
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
   NCController: e05249e11c5747679719d2d2c7cb8ae995ea6797
-  Xross: 4176f1a746eed67eefc1f83cafb204225f7d2daa
+  Xross: 1dbbf86eadcec87149263c06ab7d0f857e767a75
 
 PODFILE CHECKSUM: 7f2bfe8acc88a0f16c37c6519175b8a7fce60aeb
 

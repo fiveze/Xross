@@ -90,6 +90,7 @@ static void ApplyTransitionFade(BOOL rotationToNext, CALayer *currLayer, CALayer
 
 - (void)updateForProgress:(CGFloat)progress {
     ApplyTransitionFade(self.fadeType == MLWXrossTransitionTypeFadeIn, self.currentView.layer, self.nextView.layer, self.direction, progress);
+    [super updateForProgress:progress];
 }
 
 @end

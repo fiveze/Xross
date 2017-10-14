@@ -35,8 +35,13 @@
 }
 
 - (void)updateForProgress:(CGFloat)progress {
-    self.currentView.transform = CGAffineTransformMakeTranslation(-progress * self.direction.x * self.spacing, -progress * self.direction.y * self.spacing);
-    self.nextView.transform = CGAffineTransformMakeTranslation((1.0 - progress) * self.direction.x * self.spacing, (1.0 - progress) * self.direction.y * self.spacing);
+    if (self.spacing) {
+        self.currentView.transform = CGAffineTransformMakeTranslation(-progress * self.direction.x * self.spacing, -progress * self.direction.y * self.spacing);
+        self.nextView.transform = CGAffineTransformMakeTranslation((1.0 - progress) * self.direction.x * self.spacing, (1.0 - progress) * self.direction.y * self.spacing);
+    }
+    if (self.progressBlock) {
+        self.progressBlock(progress);
+    }
 }
 
 @end
