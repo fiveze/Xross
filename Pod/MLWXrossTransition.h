@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (readonly, weak, nonatomic) UIView *nextView;
 @property (readonly, assign, nonatomic) MLWXrossDirection direction;
 
+@property (strong, nonatomic) void(^progressBlock)(CGFloat progress);
 @property (assign, nonatomic) CGFloat spacing; // Default 0
 
 + (instancetype)new NS_UNAVAILABLE;
@@ -25,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
                            nextView:(UIView *)nextView
                           direction:(MLWXrossDirection)direction;
 
-- (void)updateForProgress:(CGFloat)progress;
+- (void)updateForProgress:(CGFloat)progress NS_REQUIRES_SUPER;
 - (void)finishTransition NS_REQUIRES_SUPER;
 
 @end
