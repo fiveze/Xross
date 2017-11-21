@@ -125,8 +125,9 @@ MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transi
 @property (assign, nonatomic) MLWXrossDirection prevWantedDirection;
 @property (assign, nonatomic) MLWXrossDirection skipAddDirection;
 @property (assign, nonatomic) BOOL inMoveToDirection;
+@property (strong, nonatomic) UIViewController *inMoveNextViewController;
 @property (assign, nonatomic) BOOL denyMovementWhileRotation;
-@property (copy, nonatomic) void (^moveToDirectionCompletionBlock)();
+@property (copy, nonatomic) void (^moveToDirectionCompletionBlock)(void);
 
 @end
 
@@ -250,14 +251,24 @@ MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transi
 }
 
 - (void)moveToDirection:(MLWXrossDirection)direction {
-    [self moveToDirection:direction completion:nil];
+    [self moveToDirection:direction viewController:nil];
 }
 
-- (void)moveToDirection:(MLWXrossDirection)direction completion:(void (^)())completion {
+- (void)moveToDirection:(MLWXrossDirection)direction completion:(void (^_Nullable)(void))completion {
+    [self moveToDirection:direction viewController:nil completion:completion];
+}
+
+- (void)moveToDirection:(MLWXrossDirection)direction viewController:(nullable UIViewController *)viewController {
+    [self moveToDirection:direction viewController:viewController completion:nil];
+}
+
+- (void)moveToDirection:(MLWXrossDirection)direction viewController:(nullable UIViewController *)viewController completion:(void (^)(void))completion {
     self.inMoveToDirection = YES;
+    self.inMoveNextViewController = viewController;
     self.view.contentOffset = CGPointMake(self.view.originOffset.x + direction.x,
                                           self.view.originOffset.y + direction.y);
     NSAssert(self.nextViewController, @"self.nextViewController should not be nil, check your xross:viewControllerForDirection: implementation");
+    self.inMoveNextViewController = nil;
     if (!self.nextViewController) {
         self.inMoveToDirection = NO;
         if (completion) {
@@ -525,7 +536,7 @@ MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transi
 }
 
 - (void)addNextViewControllerToDirection:(MLWXrossDirection)direction {
-    self.nextViewController = [self.dataSource xross:self viewControllerForDirection:direction];
+    self.nextViewController = self.inMoveNextViewController ?: [self.dataSource xross:self viewControllerForDirection:direction];
     if (self.nextViewController) {
         self.nextViewControllerDirection = direction;
     }

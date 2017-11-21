@@ -89,7 +89,9 @@ MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transi
 + (Class)xrossViewClass;
 - (void)reloadData;
 - (void)moveToDirection:(MLWXrossDirection)direction;
-- (void)moveToDirection:(MLWXrossDirection)direction completion:(void (^_Nullable)())completion;
+- (void)moveToDirection:(MLWXrossDirection)direction completion:(void (^_Nullable)(void))completion;
+- (void)moveToDirection:(MLWXrossDirection)direction viewController:(nullable UIViewController *)viewController;
+- (void)moveToDirection:(MLWXrossDirection)direction viewController:(nullable UIViewController *)viewController completion:(void (^_Nullable)(void))completion;
 
 @end
 
