@@ -102,8 +102,12 @@ static void ViewSetFrameWithoutRelayoutIfPossible(UIView *view, CGRect frame) {
 }
 
 - (BOOL)touchesShouldCancelInContentView:(UIView *)view {
+    if ([view.class conformsToProtocol:@protocol(XrossScrollable)]) {
+        return [(UIView<XrossScrollable> *)view allowXrossScrolling];
+    }
+    
     return [super touchesShouldCancelInContentView:view]
-        || [view isKindOfClass:[UITextField class]];
+    || [view isKindOfClass:[UITextField class]];
 }
 
 - (void)traitCollectionDidChange:(UITraitCollection *)previousTraitCollection {

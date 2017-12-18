@@ -28,6 +28,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+@protocol XrossScrollable
+- (BOOL)allowXrossScrolling;
+@end
+
 //
 
 @interface MLWXrossScrollView : UIScrollView <UIGestureRecognizerDelegate>
