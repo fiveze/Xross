@@ -637,6 +637,27 @@ MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transi
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
     if (!decelerate) {
         [self finishScrolling:scrollView];
+    } else {
+        CGFloat horizontalProgress = ABS(scrollView.contentOffset.x - self.view.originOffset.x) / CGRectGetWidth(self.view.bounds);
+        CGFloat verticalProgress = ABS(scrollView.contentOffset.y - self.view.originOffset.y) / CGRectGetHeight(self.view.bounds);
+        CGFloat unlimitedProgrees = MLWXrossDirectionIsHorizontal(self.prevDirection) ? horizontalProgress : verticalProgress;
+        CGFloat progress = MAX(0.0, MIN(unlimitedProgrees, 1.0));
+        
+        if ([self.delegate respondsToSelector:@selector(xross:shouldForceClose:)]) {
+            if ([self.delegate xross:self shouldForceClose:progress]) {
+                
+                CGPoint directionVector = CGPointMake(
+                                                      scrollView.contentOffset.x - self.view.originOffset.x,
+                                                      scrollView.contentOffset.y - self.view.originOffset.y);
+                MLWXrossDirection direction = MLWXrossDirectionMake(directionVector.x, directionVector.y);
+                
+                CGPoint prePoint = CGPointMake(
+                                               self.view.originOffset.x + direction.x * (CGRectGetWidth(self.view.bounds) - 1),
+                                               self.view.originOffset.y + direction.y * (CGRectGetHeight(self.view.bounds) - 1));
+                
+                [self.view setContentOffsetTo:prePoint animated:YES];
+            }
+        }
     }
 }
 
