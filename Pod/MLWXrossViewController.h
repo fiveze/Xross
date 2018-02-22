@@ -63,6 +63,7 @@ MLWXrossTransition *MLWXrossTransitionForTransitionType(MLWTransitionType transi
 @protocol MLWXrossViewControllerDelegate <NSObject>
 
 @optional
+- (BOOL)xross:(MLWXrossViewController *)xross shouldForceClose:(CGFloat)progress;
 - (void)xross:(MLWXrossViewController *)xross didMoveToDirection:(MLWXrossDirection)direction;
 - (BOOL)xross:(MLWXrossViewController *)xross shouldBounceToDirection:(MLWXrossDirection)direction;
 - (void)xross:(MLWXrossViewController *)xross removedViewController:(UIViewController *)viewController;
